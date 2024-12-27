@@ -1,0 +1,44 @@
+version: '3.8'
+services:
+  app:
+    build: ./app
+    container_name: GG_Chatalyze
+    depends_on:
+      - mysql
+      - mongodb
+    environment:
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+      DISCORD_BOT_TOKEN: ${DISCORD_BOT_TOKEN}
+      DISCORD_CLIENT_ID: ${DISCORD_CLIENT_ID}
+      ALLOWED_SERVER_IDS: ${ALLOWED_SERVER_IDS}
+      DISCORD_CHANNEL_ID: ${DISCORD_CHANNEL_ID}
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+
+  dotaconstants-api:
+      build:
+        context: ./dotaconstants-api
+      ports:
+        - "3000:3000"
+      restart: unless-stopped
+  mysql:
+    image: mysql:8.0
+    container_name: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: my_database
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./mysql:/docker-entrypoint-initdb.d
+    restart: unless-stopped
+
+  mongodb:
+    image: mongo:5.0
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./mongodb/init.js:/docker-entrypoint-initdb.d/init.js:ro
+    restart: unless-stopped
