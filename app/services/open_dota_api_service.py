@@ -1,5 +1,4 @@
 import requests
-import os
 
 API_URL = "https://api.opendota.com/api"
 
@@ -21,4 +20,14 @@ def fetch_match_details(match_id):
         return response.json()
     else:
         print(f"Failed to fetch match details for match ID {match_id}: {response.status_code}")
+        return None
+
+def fetch_player(player_id):
+    """Fetch player details by player ID."""
+    url = f"{API_URL}/players/{player_id}"
+    response = requests.get(url)
+    if response.status_code == 200:
+        return response.json()
+    else:
+        print(f"Failed to fetch player details for player ID {player_id}: {response.status_code}")
         return None

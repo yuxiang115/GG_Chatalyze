@@ -24,6 +24,7 @@ def generate_analysis(match_details):
     3. **全面分析**：不仅关注玩家的击杀和助攻，还要结合经济、团队协作、技能使用等多方面评价。
     4. **分析胜利失败** 分析胜利队伍中，哪个玩家起到关键性的作用，以及失败队伍中，哪些环节导致了失利，以及哪些玩家表现不佳以及不佳的行为，提出改进建议。
     """
+
     prompt = f"""
     你是一个专业的Dota 2分析师，根据以下比赛数据完成分析：
     {match_details}
@@ -34,6 +35,7 @@ def generate_analysis(match_details):
     4. 比赛走势
     5. 改进建议
     """
+
     response = openai.ChatCompletion.create(
         model="gpt-4o",
         messages=[

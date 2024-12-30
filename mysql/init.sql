@@ -7,6 +7,7 @@ CREATE TABLE IF NOT EXISTS players (
 CREATE TABLE IF NOT EXISTS player_match (
     player_id BIGINT,
     match_id BIGINT,
+    start_time TIMESTAMP,
     PRIMARY KEY (player_id, match_id),
     FOREIGN KEY (player_id) REFERENCES players(player_id)
 );

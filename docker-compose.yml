@@ -4,14 +4,25 @@ services:
     build: ./app
     container_name: GG_Chatalyze
     depends_on:
-      - mysql
-      - mongodb
+      mysql:
+        condition: service_healthy
+      mongodb:
+        condition: service_healthy
     environment:
       OPENAI_API_KEY: ${OPENAI_API_KEY}
       DISCORD_BOT_TOKEN: ${DISCORD_BOT_TOKEN}
       DISCORD_CLIENT_ID: ${DISCORD_CLIENT_ID}
       ALLOWED_SERVER_IDS: ${ALLOWED_SERVER_IDS}
       DISCORD_CHANNEL_ID: ${DISCORD_CHANNEL_ID}
+      STEAM_API_KEY: ${STEAM_API_KEY}
+      DOTA_CONSTANTS_HOST: ${DOTA_CONSTANTS_HOST:-dotaconstants-api:3000}
+      MYSQL_HOST: ${MYSQL_HOST:-mysql}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-rootpassword}
+      MYSQL_DATABASE: ${MYSQL_DATABASE:-gg_chatalyze}
+      MYSQL_USER: ${MYSQL_USER:-gg_chatalyze}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:-gg_chatalyze}
+      MONGO_URI: ${MONGO_URI:-mongodb://mongodb:27017}
+      MONGO_DB_NAME: ${MONGO_DB_NAME:-gg_chatalyze}
     ports:
       - "8080:8080"
     restart: unless-stopped
@@ -24,21 +35,36 @@ services:
       restart: unless-stopped
   mysql:
     image: mysql:8.0
-    container_name: mysql
+    healthcheck:
+      test: [ "CMD", "mysqladmin", "ping", "-h", "localhost" ]
+      interval: 10s
+      retries: 3
+      start_period: 30s
+    container_name: GG_Chatalyze_mysql
     environment:
-      MYSQL_ROOT_PASSWORD: password
-      MYSQL_DATABASE: my_database
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-rootpassword}
+      MYSQL_DATABASE: ${MYSQL_DATABASE:-gg_chatalyze}
+      MYSQL_USER: ${MYSQL_USER:-gg_chatalyze}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:-gg_chatalyze}
+
     ports:
       - "3306:3306"
     volumes:
-      - ./mysql:/docker-entrypoint-initdb.d
+      - ${MYSQL_DATA_DIR:-./mysql-data}:/var/lib/mysql
+      - ./mysql/init.sql:/docker-entrypoint-initdb.d/init.sql
     restart: unless-stopped
 
   mongodb:
     image: mongo:5.0
-    container_name: mongodb
+    healthcheck:
+      test: ["CMD", "mongo", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      retries: 3
+      start_period: 30s
+    container_name: GG_Chatalyze_mongodb
     ports:
       - "27017:27017"
     volumes:
-      - ./mongodb/init.js:/docker-entrypoint-initdb.d/init.js:ro
+      - ${MONGO_DATA_DIR:-./data/mongodb}:/data/db
+      - ./mongodb/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
     restart: unless-stopped
