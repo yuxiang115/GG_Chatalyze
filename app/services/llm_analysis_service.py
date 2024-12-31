@@ -1,3 +1,5 @@
+import json
+
 from langchain.chains import LLMChain, SequentialChain
 from langchain.prompts import PromptTemplate
 from langchain_openai import ChatOpenAI
@@ -8,7 +10,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # 初始化 GPT-4 模型
-llm = ChatOpenAI(model="gpt-4o", temperature=0.7, openai_api_key=os.getenv("OPENAI_API_KEY"))
+llm = ChatOpenAI(model="gpt-4o-mini", temperature=0.7, openai_api_key=os.getenv("OPENAI_API_KEY"))
 
 
 
@@ -18,7 +20,7 @@ highlight_prompt = PromptTemplate(
     input_variables=["match_details"],
     template=(
         "以下是比赛的详细数据：\n{match_details}\n"
-        "请使用中文和英文描述英雄名称，并且在分析玩家的的时候，提及他们的personal name, 如果没有personal name 就用 ‘匿名玩家’"
+        "请使用中文和英文描述英雄名称，并且在分析玩家的的时候，提及他们的personaname, 如果没有personaname 就用 ‘匿名玩家’"
         "请从以下角度分析本场比赛中玩家表现, 列出胜方亮眼玩家们的表现，如果败方也有亮眼玩家，分析他的表现，分析这玩家对队伍的影响：\n"
         "1. 关键数据：包括击杀（Kills）、死亡（Deaths）、助攻（Assists）、金钱获取（GPM）、经验获取（XPM）、净值、英雄伤害、推塔伤害, 承受伤害等。关键数据写在一行\n"
         "2. 角色定位：分析该玩家在团队中的角色，例如经济核心、爆发输出、辅助等。\n"
@@ -37,7 +39,7 @@ underperform_prompt = PromptTemplate(
     input_variables=["match_details", "highlights"],
     template=(
         "以下是比赛详情和玩家分析：\n比赛详情：{match_details}\n玩家分析：{highlights}\n"
-        "请使用中文和英文描述英雄名称，并且在分析玩家的的时候，提及他们的personal name, 如果没有personal name 就用 ‘匿名玩家’"
+        "请使用中文和英文描述英雄名称，并且在分析玩家的的时候，提及他们的personaname, 如果没有personaname 就用 ‘匿名玩家’"
         "请分析本场比赛中失败队伍表现不佳的玩家，主要导致队伍失败的玩家，重点关注以下几点：\n"
         "1. 关键数据：包括击杀（Kills）、死亡（Deaths）、助攻（Assists）、金钱获取（GPM）、经验获取（XPM）、净值、英雄伤害、推塔伤害, 承受伤害等。关键数据写在一行\n"
         "2. 问题分析：分析其低表现的原因，例如死亡次数过高、经济落后、定位错误等。 还要分析这个玩家的出装有哪些方面的问题\n"
@@ -59,7 +61,7 @@ summary_prompt = PromptTemplate(
     input_variables=["match_details", "highlights", "underperform"],
     template=(
         "以下是比赛详情、亮眼玩家分析和表现不佳玩家分析：\n比赛详情：{match_details}\n"
-        "请使用中文和英文描述英雄名称，并且在分析玩家的的时候，提及他们的personal name, 如果没有personal name 就用 ‘匿名玩家’"
+        "请使用中文和英文描述英雄名称，并且在分析玩家的的时候，提及他们的personaname, 如果没有personaname 就用 ‘匿名玩家’"
         "亮眼玩家分析：{highlights}\n表现不佳玩家分析：{underperform}\n"
         "请总结本场比赛的整体表现，包括：\n"
         "1. 胜负结果：哪个队伍获胜，比分如何，主要原因是什么？\n"
@@ -93,6 +95,7 @@ overall_chain = SequentialChain(
 
 
 def analyze(match_details):
+    print(f"""Analyzing match details: \n{json.dumps(match_details)}""")
     result = overall_chain.invoke({"match_details": match_details})
     return {'highlights': result["highlights"], 'underperform': result["underperform"], 'summary': result["summary"]}
 

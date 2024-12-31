@@ -25,3 +25,7 @@ class MatchRepository:
     def save_match(self, match_data):
         """Save match data to the database."""
         self.db.matches.insert_one(match_data)
+
+    def update_match(self, match_id, match_data):
+        """Update match data in the database."""
+        self.db.matches.update_one({"match_id": match_id}, {"$set": match_data}, upsert=True)
