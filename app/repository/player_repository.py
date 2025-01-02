@@ -118,3 +118,24 @@ def get_player(player_id):
         finally:
             connection.close()  # 无论是否发生异常，都确保关闭连接
     return []
+
+def fetch_player_by_discord_id(discord_id):
+    """根据 discord_id 获取玩家信息"""
+    connection = get_mysql_connection()
+    if connection:
+        cursor = connection.cursor(dictionary=True)
+        try:
+            cursor.execute("""
+            SELECT player_id, personal_name, discord_id, auto_analyze_end_datetime
+            FROM players
+            WHERE discord_id = %s
+            """, (discord_id,))
+            player = cursor.fetchall()
+            cursor.close()
+            return player[0] if player else None
+        except Exception as e:
+            print(f"查询玩家信息时发生错误: {e}")
+            return []
+        finally:
+            connection.close()
+    return None

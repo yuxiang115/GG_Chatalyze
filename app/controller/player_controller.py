@@ -20,7 +20,7 @@ def update_player(data: dict):
 @player_router.get("/enableAutoAnalyze/{player_id}")
 def enable_auto_analyze(player_id: str, hours: int = 0, discord_id: str = None):
     if not hours or not isinstance(hours, int) or hours < 1:
-        return {"message": "Invalid hours!"}
+        return {"message": "Invalid hours! Please provide a valid hours value! (hours > 0)"}
     player_db = player_repository.get_player(player_id)
     if not player_db:
         player = fetch_player(player_id)
@@ -42,7 +42,3 @@ def analyze_most_recently_match(player_id: int):
     match_analyze_service.refresh_matches_by_player_ids([player_id], send_cache_analysis=True)
     return {"message": "Analysis started!"}
 
-@player_router.get("/refresh")
-def refresh_matches():
-    match_analyze_service.refresh_matches()
-    return {"message": "Matches refreshed!"}

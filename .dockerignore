@@ -1,0 +1,28 @@
+# 排除 Python 虚拟环境
+.venv
+
+# 排除本地 IDE 配置文件
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# 排除日志文件
+*.log
+
+# 排除本地数据文件
+data/
+mysql-data/
+mongodb-data/
+
+# 排除临时文件
+*.tmp
+*.bak
+*.old
+
+# 排除其他不必要的文件
+docker-compose.override.yml

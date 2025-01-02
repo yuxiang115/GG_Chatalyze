@@ -1,22 +1,18 @@
 import json
-
 from langchain.chains import LLMChain, SequentialChain
 from langchain.prompts import PromptTemplate
-from langchain_openai import ChatOpenAI
+from langchain.llms import OpenAI
 import os
 from dotenv import load_dotenv
 
 # 加载环境变量
 load_dotenv()
 
-# 初始化 GPT-4 模型
-llm = ChatOpenAI(model="gpt-4o-mini", temperature=0.7, openai_api_key=os.getenv("OPENAI_API_KEY"))
+# 初始化 OpenAI 模型
+llm = OpenAI(model="gpt-4o-mini", temperature=0.7, openai_api_key=os.getenv("OPENAI_API_KEY"))
 
-
-
-# 定义各部分任务的 Prompt
+# 定义亮眼玩家分析的 Prompt
 highlight_prompt = PromptTemplate(
-
     input_variables=["match_details"],
     template=(
         "以下是比赛的详细数据：\n{match_details}\n"
@@ -35,8 +31,9 @@ highlight_prompt = PromptTemplate(
     )
 )
 
+# 定义表现不佳玩家分析的 Prompt
 underperform_prompt = PromptTemplate(
-    input_variables=["match_details", "highlights"],
+    input_variables=["match_details"],
     template=(
         "以下是比赛详情和玩家分析：\n比赛详情：{match_details}\n玩家分析：{highlights}\n"
         "请使用中文和英文描述英雄名称，并且在分析玩家的的时候，提及他们的personaname, 如果没有personaname 就用 ‘匿名玩家’"
@@ -56,6 +53,7 @@ underperform_prompt = PromptTemplate(
     )
 )
 
+# 定义比赛总结的 Prompt
 summary_prompt = PromptTemplate(
     input_variables=["match_details", "highlights", "underperform"],
     template=(
@@ -79,7 +77,7 @@ summary_prompt = PromptTemplate(
     )
 )
 
-# 定义每一步的 LLMChain
+# 创建 LangChain 的 LLMChain
 highlight_chain = LLMChain(llm=llm, prompt=highlight_prompt, output_key="highlights")
 underperform_chain = LLMChain(llm=llm, prompt=underperform_prompt, output_key="underperform")
 summary_chain = LLMChain(llm=llm, prompt=summary_prompt, output_key="summary")
@@ -92,9 +90,9 @@ overall_chain = SequentialChain(
     verbose=True,
 )
 
-
+# 分析函数
 def analyze(match_details):
-    print(f"""Analyzing match details: \n{json.dumps(match_details)}""")
+    print("Analyzing match details...")
     result = overall_chain.invoke({"match_details": match_details})
-    return {'highlights': result["highlights"], 'underperform': result["underperform"], 'summary': result["summary"]}
+    return result
 
