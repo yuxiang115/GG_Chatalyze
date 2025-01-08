@@ -1,4 +1,6 @@
-import json
+import asyncio
+from concurrent.futures import ThreadPoolExecutor
+import functools
 
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
@@ -21,6 +23,7 @@ agent = gg_chatalyze_agent.agent
 llm = gg_chatalyze_agent.llm
 channel_context = {}
 
+executor = ThreadPoolExecutor()
 
 def update_context(channel_id, user_discord_id, user_name, content, is_bot=False):
     global channel_context
@@ -98,60 +101,63 @@ async def on_message(message):
     update_context(channel_id, message.author.id, user_name, user_query)
 
     if client.user.mentioned_in(message):
-        try:
+        async with message.channel.typing():
+            try:
+                # 构建上下文
+                context = "\n".join([
+                    f"{'bot' if ctx['role'] == 'bot' else ctx['discord_id']}#{ctx['user_name']}: {ctx['content']}"
+                    for ctx in channel_context[channel_id]
+                ])
 
-            # 构建上下文
-            context = "\n".join([
-                f"{'bot' if ctx['role'] == 'bot' else ctx['discord_id']}#{ctx['user_name']}: {ctx['content']}"
-                for ctx in channel_context[channel_id]
-            ])
+                # 判断意图
+                intent_result = classify_intent(context, user_query)
 
-            # 判断意图
-            intent_result = classify_intent(context, user_query)
+                if intent_result['intent'] == "Task":
+                    user_query = f"""
+                    action input should be dict, json string value
+                    {user_info_prompt}
+                    
+                    user query info: if @xxx it is mention by discord_name, if <@numbers> ex <@123456789> it is mention by discord_id
+                    user_query:
+                    {user_query}
+                    response in Language: {intent_result['language']} for example "zh" for Chinese, "en" for English
+                    """
+                    # 任务执行模式
+                    response = await run_in_executor(agent.run, user_query)
+                else:
+                    # 聊天模式
+                    chat_prompt = f"""
+                    You are a conversational assistant. Engage in a natural and friendly conversation based on the context.
+                    context is the conversation history in the channel, format: discor_id#user_name: content
+                    bot#{client.user.name}: content  represent it is your chat history
+                    Context:
+                    {context}
+    
+                    {user_info_prompt}
+    
+                    User query:
+                    {user_query}
+                    
+                    Only response with your content, dont include bot#GG_Chatalyze, 
+                    Response in Language: {intent_result['language']} for example "zh" for Chinese, "en" for English
+                    Note: Do not add language identifiers (e.g., zh:) in the response
+                    
+                    Respond:
+                    """
+                    response = llm(chat_prompt).content
 
-            if intent_result['intent'] == "Task":
-                player = player_repository.fetch_player_by_discord_id(message.author.id)
-                user_query = f"""
-                action input should be dict, json string value
-                {user_info_prompt}
-                user_query:
-                {user_query}
-                response in Language: {intent_result['language']} for example "zh" for Chinese, "en" for English
-                """
-                # 任务执行模式
-                response = agent.run(user_query)
-            else:
-                # 聊天模式
-                chat_prompt = f"""
-                You are a conversational assistant. Engage in a natural and friendly conversation based on the context.
-                context is the conversation history in the channel, format: discor_id#user_name: content
-                bot#{client.user.name}: content  represent it is your chat history
-                Context:
-                {context}
+                # 回复用户
+                update_context(channel_id, client.user.id, client.user.name, response, is_bot=True)
 
-                {user_info_prompt}
+                await message.channel.send(response)
 
-                User query:
-                {user_query}
-                
-                Only response with your content, dont include bot#GG_Chatalyze:
-                Response in Language: {intent_result['language']} for example "zh" for Chinese, "en" for English
-                Respond:
-                """
-                response = llm(chat_prompt).content
+            except Exception as e:
+                await message.channel.send(f"出错了: {e.with_traceback()}")
 
-            # 回复用户
-            update_context(channel_id, client.user.id, client.user.name, response, is_bot=True)
-
-            await message.channel.send(response)
-
-        except Exception as e:
-            await message.channel.send(f"出错了: {e}")
-
+async def run_in_executor(func, *args, **kwargs):
+    loop = asyncio.get_running_loop()
+    partial_func = functools.partial(func, *args, **kwargs)
+    return await loop.run_in_executor(executor, partial_func)
 
 def start():
     client.run(discord_bot_token)
-
-
-if __name__ == "__main__":
-    start()

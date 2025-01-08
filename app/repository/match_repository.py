@@ -1,12 +1,12 @@
 from pymongo import MongoClient
 from app.configs.db_config import mongodb_client as mongo_client
-import os
+from app.constant.env_constant import MONGO_DB_NAME
 
 
 class MatchRepository:
     def __init__(self):
         self.client = mongo_client
-        self.db = self.client[os.getenv("MONGO_DB_NAME", "gg_chatalyze")]
+        self.db = self.client[MONGO_DB_NAME]
 
     def get_collection(self, name):
         return self.db[name]

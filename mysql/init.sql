@@ -2,6 +2,7 @@ CREATE TABLE IF NOT EXISTS players (
     player_id BIGINT PRIMARY KEY,
     personal_name VARCHAR(255),
     discord_id BIGINT,
+    discord_name VARCHAR(255),
     auto_analyze_end_datetime TIMESTAMP DEFAULT NOW() NOT NULL
 );
 

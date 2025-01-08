@@ -4,12 +4,12 @@ from langchain.prompts import PromptTemplate
 from langchain.llms import OpenAI
 import os
 from dotenv import load_dotenv
-
+from app.constant import env_constant
 # 加载环境变量
 load_dotenv()
 
 # 初始化 OpenAI 模型
-llm = OpenAI(model="gpt-4o-mini", temperature=0.7, openai_api_key=os.getenv("OPENAI_API_KEY"))
+llm = OpenAI(model="deepseek-chat", temperature=0.7, openai_api_key=env_constant.DEEPSEEK_API_KEY, base_url='https://api.deepseek.com')
 
 # 定义亮眼玩家分析的 Prompt
 highlight_prompt = PromptTemplate(

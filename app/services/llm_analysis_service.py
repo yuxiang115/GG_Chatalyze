@@ -6,11 +6,13 @@ from langchain_openai import ChatOpenAI
 import os
 from dotenv import load_dotenv
 
+from app.constant import env_constant
+
 # 加载环境变量
 load_dotenv()
 
 # 初始化 GPT-4 模型
-llm = ChatOpenAI(model="gpt-4o-mini", temperature=0.7, openai_api_key=os.getenv("OPENAI_API_KEY"))
+llm = ChatOpenAI(model="deepseek-chat", temperature=0.7, openai_api_key=env_constant.DEEPSEEK_API_KEY, base_url='https://api.deepseek.com')
 
 
 

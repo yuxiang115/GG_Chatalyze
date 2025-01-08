@@ -1,9 +1,5 @@
-import json
-
 import requests
-import os
-from dotenv import load_dotenv
-load_dotenv()
+from app.constant import env_constant
 
 heroes = []
 items_by_name = []
@@ -12,7 +8,7 @@ abilities = []
 game_mode = {}
 team_by_id = {0: "Radiant", 1: "Dire"}
 
-dotaconstants_host = os.getenv("DOTA_CONSTANTS_HOST", "localhost:3000")
+dotaconstants_host = env_constant.DOTA_CONSTANTS_HOST
 
 
 data_fetch_url = "http://" + dotaconstants_host + "/api/data?type={}"
@@ -156,11 +152,6 @@ def format_float(value):
 def simplify_match_players(match_details):
     simplified_players = []
     for player in match_details["players"]:
-        if_win = (
-            player["radiant_win"] and player["team_number"] == 0
-            or not player["radiant_win"] and player["team_number"] == 1
-        )
-
         # 处理 benchmarks，确保字段存在并格式化浮点数
         benchmarks = {
             key: {
@@ -194,7 +185,7 @@ def simplify_match_players(match_details):
                 simplified_player[key] = player[key]
 
         # 处理布尔值和其他逻辑字段
-        simplified_player["win"] = if_win
+        simplified_player["win"] = bool(player.get("win", 0))
         simplified_player["benchmarks"] = benchmarks
 
         # 处理 Inventory，排除为 None 或 "None" 的物品
@@ -228,9 +219,6 @@ def simplify_match_detail(match_detail):
     return simplified_match
 
 
-
-
-
 load_all_data()
 
 #open json file load data
@@ -246,4 +234,3 @@ load_all_data()
 # # content = [f'### Match ID: {match_detail["match_id"]}'] + [message for message in res.values()]
 # # discordWebhook.send(content)
 # print(res)
-

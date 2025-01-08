@@ -1,1 +1,3175 @@
-{"players": [{"account_id": 160983103, "player_slot": 0, "team_number": 0, "team_slot": 0, "hero_id": 22, "hero_variant": 2, "item_0": "Aghanim's Scepter", "item_1": "Magic Stick", "item_2": "Arcane Boots", "item_3": "Tango", "item_4": "Kaya", "item_5": "Aether Lens", "backpack_0": null, "backpack_1": null, "backpack_2": null, "item_neutral": "Arcane Ring", "kills": 5, "deaths": 8, "assists": 11, "leaver_status": 0, "last_hits": 42, "denies": 0, "gold_per_min": 868, "xp_per_min": 1246, "level": 22, "net_worth": 20752, "aghanims_scepter": 0, "aghanims_shard": 1, "moonshard": 0, "hero_damage": 31527, "tower_damage": 0, "hero_healing": 0, "gold": 8987, "gold_spent": 11000, "ability_upgrades_arr": ["Lightning Bolt", "Heavenly Jump", "Lightning Bolt", "Arc Lightning", "Lightning Bolt", "Thundergod's Wrath", "Lightning Bolt", "Heavenly Jump", "Arc Lightning", "+200 Health", "Arc Lightning", "Arc Lightning", "Heavenly Jump", "Heavenly Jump", "+1 Heavenly Jump Target", "Thundergod's Wrath", "Thundergod's Wrath", "+60 Arc Lightning Damage"], "personaname": "\ue0b8Puck\ue0b8", "name": null, "last_login": "2024-08-15T05:27:43.089Z", "rank_tier": 44, "is_subscriber": false, "radiant_win": false, "start_time": 1735450613, "duration": 1336, "cluster": 118, "lobby_type": 0, "game_mode": 23, "is_contributor": false, "patch": 56, "region": 1, "isRadiant": true, "win": 0, "lose": 1, "total_gold": 19327, "total_xp": 27744, "kills_per_min": 0.22455089820359284, "kda": 1.78, "abandons": 0, "benchmarks": {"gold_per_min": {"raw": 868, "pct": 0.9980035492457853}, "xp_per_min": {"raw": 1246, "pct": 0.9951197870452528}, "kills_per_min": {"raw": 0.2245508982035928, "pct": 0.5809671694764863}, "last_hits_per_min": {"raw": 1.8862275449101795, "pct": 0.1960958296362023}, "hero_damage_per_min": {"raw": 1415.8832335329341, "pct": 0.9290150842945873}, "hero_healing_per_min": {"raw": 0, "pct": 0.8118899733806566}, "tower_damage": {"raw": 0, "pct": 0.20474711623779948}}, "hero": "Zeus"}, {"player_slot": 1, "team_number": 0, "team_slot": 1, "hero_id": 99, "hero_variant": 1, "item_0": "Arcane Boots", "item_1": "Vanguard", "item_2": "Aghanim's Scepter", "item_3": "Bracer", "item_4": "Voodoo Mask", "item_5": "Bracer", "backpack_0": "Vitality Booster", "backpack_1": null, "backpack_2": null, "item_neutral": "Rattlecage", "kills": 2, "deaths": 7, "assists": 8, "leaver_status": 0, "last_hits": 28, "denies": 0, "gold_per_min": 499, "xp_per_min": 1154, "level": 21, "net_worth": 10880, "aghanims_scepter": 0, "aghanims_shard": 0, "moonshard": 0, "hero_damage": 10640, "tower_damage": 320, "hero_healing": 0, "gold": 770, "gold_spent": 11010, "ability_upgrades_arr": ["Quill Spray", "Bristleback", "Quill Spray", "Viscous Nasal Goo", "Quill Spray", "Warpath", "Quill Spray", "Bristleback", "Bristleback", "Bristleback", "+25 Attack Speed", "Warpath", "Viscous Nasal Goo", "Viscous Nasal Goo", "Viscous Nasal Goo", "Warpath"], "is_subscriber": false, "radiant_win": false, "start_time": 1735450613, "duration": 1336, "cluster": 118, "lobby_type": 0, "game_mode": 23, "is_contributor": false, "patch": 56, "region": 1, "isRadiant": true, "win": 0, "lose": 1, "total_gold": 11111, "total_xp": 25695, "kills_per_min": 0.08982035928143713, "kda": 1.25, "abandons": 0, "benchmarks": {"gold_per_min": {"raw": 499, "pct": 0.44978875528111795}, "xp_per_min": {"raw": 1154, "pct": 0.9369515762105948}, "kills_per_min": {"raw": 0.08982035928143713, "pct": 0.20669483262918428}, "last_hits_per_min": {"raw": 1.2574850299401197, "pct": 0.015924601884952875}, "hero_damage_per_min": {"raw": 477.8443113772455, "pct": 0.17354566135846602}, "hero_healing_per_min": {"raw": 0, "pct": 0.9483262918427039}, "tower_damage": {"raw": 320, "pct": 0.23301917452063697}}, "hero": "Bristleback"}, {"player_slot": 2, "team_number": 0, "team_slot": 2, "hero_id": 44, "hero_variant": 1, "item_0": "Phase Boots", "item_1": "Black King Bar", "item_2": "Desolator", "item_3": "Morbid Mask", "item_4": "Divine Rapier", "item_5": "Aghanim's Scepter", "backpack_0": "Healing Lotus", "backpack_1": "Dust of Appearance", "backpack_2": null, "item_neutral": "Nemesis Curse", "kills": 3, "deaths": 4, "assists": 7, "leaver_status": 1, "last_hits": 141, "denies": 14, "gold_per_min": 988, "xp_per_min": 1407, "level": 23, "net_worth": 21402, "aghanims_scepter": 0, "aghanims_shard": 1, "moonshard": 0, "hero_damage": 13101, "tower_damage": 0, "hero_healing": 0, "gold": 72, "gold_spent": 22825, "ability_upgrades_arr": ["Stifling Dagger", "Phantom Strike", "Stifling Dagger", "Phantom Strike", "Stifling Dagger", "Coup de Grace", "Stifling Dagger", "Phantom Strike", "Blur", "+0.5s Phantom Strike Duration", "Phantom Strike", "Coup de Grace", "Blur", "Blur", "+200 Phantom Strike Cast Range", "Blur", "Coup de Grace", "+60 Phantom Strike Attack Speed"], "is_subscriber": false, "radiant_win": false, "start_time": 1735450613, "duration": 1336, "cluster": 118, "lobby_type": 0, "game_mode": 23, "is_contributor": false, "patch": 56, "region": 1, "isRadiant": true, "win": 0, "lose": 1, "total_gold": 21999, "total_xp": 31329, "kills_per_min": 0.1347305389221557, "kda": 2, "abandons": 0, "benchmarks": {"gold_per_min": {"raw": 988, "pct": 0.9972721437740694}, "xp_per_min": {"raw": 1407, "pct": 0.9833119383825417}, "kills_per_min": {"raw": 0.1347305389221557, "pct": 0.16848523748395378}, "last_hits_per_min": {"raw": 6.332335329341317, "pct": 0.3722721437740693}, "hero_damage_per_min": {"raw": 588.368263473054, "pct": 0.35221437740693196}, "hero_healing_per_min": {"raw": 0, "pct": 0.9667843388960206}, "tower_damage": {"raw": 0, "pct": 0.18838254172015403}}, "hero": "Phantom Assassin"}, {"player_slot": 3, "team_number": 0, "team_slot": 3, "hero_id": 84, "hero_variant": 1, "item_0": "Boots of Travel", "item_1": "Blink Dagger", "item_2": "Black King Bar", "item_3": "Aghanim's Scepter", "item_4": "Hand of Midas", "item_5": "Bracer", "backpack_0": null, "backpack_1": null, "backpack_2": null, "item_neutral": "Ogre Seal Totem", "kills": 3, "deaths": 9, "assists": 7, "leaver_status": 0, "last_hits": 64, "denies": 8, "gold_per_min": 1075, "xp_per_min": 1529, "level": 24, "net_worth": 24216, "aghanims_scepter": 0, "aghanims_shard": 0, "moonshard": 0, "hero_damage": 13329, "tower_damage": 650, "hero_healing": 0, "gold": 8511, "gold_spent": 16195, "ability_upgrades_arr": ["Ignite", "Bloodlust", "Fireblast", "Ignite", "Ignite", "Multicast", "Ignite", "Fireblast", "Fireblast", "+15 Ignite DPS", "Fireblast", "Multicast", "Bloodlust", "Bloodlust", "+80 Damage", "Bloodlust", "Multicast", "+30 Strength"], "is_subscriber": false, "radiant_win": false, "start_time": 1735450613, "duration": 1336, "cluster": 118, "lobby_type": 0, "game_mode": 23, "is_contributor": false, "patch": 56, "region": 1, "isRadiant": true, "win": 0, "lose": 1, "total_gold": 23936, "total_xp": 34045, "kills_per_min": 0.1347305389221557, "kda": 1, "abandons": 0, "benchmarks": {"gold_per_min": {"raw": 1075, "pct": 1}, "xp_per_min": {"raw": 1529, "pct": 1}, "kills_per_min": {"raw": 0.1347305389221557, "pct": 0.5996815849991155}, "last_hits_per_min": {"raw": 2.874251497005988, "pct": 0.6684946046347072}, "hero_damage_per_min": {"raw": 598.6077844311378, "pct": 0.632053776755705}, "hero_healing_per_min": {"raw": 0, "pct": 0.6973288519370245}, "tower_damage": {"raw": 650, "pct": 0.48735184857597735}}, "hero": "Ogre Magi"}, {"player_slot": 4, "team_number": 0, "team_slot": 4, "hero_id": 12, "hero_variant": 1, "item_0": "Quelling Blade", "item_1": "Diffusal Blade", "item_2": "Heart of Tarrasque", "item_3": "Power Treads", "item_4": "Monkey King Bar", "item_5": "Eye of Skadi", "backpack_0": null, "backpack_1": null, "backpack_2": null, "item_neutral": "Mind Breaker", "kills": 5, "deaths": 5, "assists": 5, "leaver_status": 0, "last_hits": 115, "denies": 2, "gold_per_min": 995, "xp_per_min": 1228, "level": 22, "net_worth": 21850, "aghanims_scepter": 0, "aghanims_shard": 0, "moonshard": 0, "hero_damage": 11159, "tower_damage": 1277, "hero_healing": 0, "gold": 2450, "gold_spent": 20840, "ability_upgrades_arr": ["Spirit Lance", "Phantom Rush", "Spirit Lance", "Doppelganger", "Spirit Lance", "Juxtapose", "Spirit Lance", "Phantom Rush", "Phantom Rush", "+35 Spirit Lance Damage", "Phantom Rush", "Juxtapose", "Doppelganger", "Doppelganger", "Doppelganger", "+2.5s Phantom Rush Bonus Agility Duration", "Juxtapose", "+300 Phantom Rush Range"], "is_subscriber": false, "radiant_win": false, "start_time": 1735450613, "duration": 1336, "cluster": 118, "lobby_type": 0, "game_mode": 23, "is_contributor": false, "patch": 56, "region": 1, "isRadiant": true, "win": 0, "lose": 1, "total_gold": 22155, "total_xp": 27343, "kills_per_min": 0.22455089820359284, "kda": 1.67, "abandons": 0, "benchmarks": {"gold_per_min": {"raw": 995, "pct": 0.9950657894736842}, "xp_per_min": {"raw": 1228, "pct": 0.9580592105263158}, "kills_per_min": {"raw": 0.2245508982035928, "pct": 0.6398026315789473}, "last_hits_per_min": {"raw": 5.164670658682635, "pct": 0.26973684210526316}, "hero_damage_per_min": {"raw": 501.1526946107784, "pct": 0.3980263157894737}, "hero_healing_per_min": {"raw": 0, "pct": 0.9547697368421053}, "tower_damage": {"raw": 1277, "pct": 0.37664473684210525}}, "hero": "Phantom Lancer"}, {"account_id": 65039015, "player_slot": 128, "team_number": 1, "team_slot": 0, "hero_id": 53, "hero_variant": 1, "item_0": "Scythe of Vyse", "item_1": "Silver Edge", "item_2": "Bloodthorn", "item_3": "Witch Blade", "item_4": "Power Treads", "item_5": null, "backpack_0": null, "backpack_1": null, "backpack_2": null, "item_neutral": "Ancient Guardian", "kills": 9, "deaths": 4, "assists": 16, "leaver_status": 0, "last_hits": 197, "denies": 1, "gold_per_min": 1800, "xp_per_min": 2426, "level": 28, "net_worth": 33372, "aghanims_scepter": 1, "aghanims_shard": 1, "moonshard": 0, "hero_damage": 30253, "tower_damage": 17433, "hero_healing": 1130, "gold": 4522, "gold_spent": 30565, "ability_upgrades_arr": ["Nature's Call", "Sprout", "Sprout", "Teleportation", "Sprout", "Wrath of Nature", "Sprout", "Nature's Call", "Nature's Call", "Nature's Call", "+30 Wrath of Nature Base Damage", "Wrath of Nature", "Teleportation", "Teleportation", "+{s:bonus_treant_movespeed} Treant Movement Speed", "Teleportation", "Wrath of Nature", "Sprout Leashes", "{s:bonus_treant_health}x Treant HP/Damage", "-10s Nature's Call Cooldown", "+100 Teleportation Barrier"], "personaname": "LGI.SzechuanSizzle", "name": null, "last_login": null, "rank_tier": 61, "is_subscriber": false, "radiant_win": false, "start_time": 1735450613, "duration": 1336, "cluster": 118, "lobby_type": 0, "game_mode": 23, "is_contributor": false, "patch": 56, "region": 1, "isRadiant": false, "win": 1, "lose": 0, "total_gold": 40080, "total_xp": 54018, "kills_per_min": 0.4041916167664671, "kda": 5, "abandons": 0, "benchmarks": {"gold_per_min": {"raw": 1800, "pct": 0.9991833401388321}, "xp_per_min": {"raw": 2426, "pct": 1}, "kills_per_min": {"raw": 0.4041916167664671, "pct": 0.9465087790935075}, "last_hits_per_min": {"raw": 8.847305389221557, "pct": 0.8227848101265823}, "hero_damage_per_min": {"raw": 1358.6676646706587, "pct": 0.9812168231931401}, "hero_healing_per_min": {"raw": 50.74850299401197, "pct": 0.9587586770110249}, "tower_damage": {"raw": 17433, "pct": 0.9277256022866476}}, "hero": "Nature's Prophet"}, {"account_id": 282049624, "player_slot": 129, "team_number": 1, "team_slot": 1, "hero_id": 26, "hero_variant": 1, "item_0": "Blink Dagger", "item_1": "Tranquil Boots", "item_2": "Lotus Orb", "item_3": "Magic Stick", "item_4": "Aether Lens", "item_5": "Octarine Core", "backpack_0": null, "backpack_1": null, "backpack_2": null, "item_neutral": "Faded Broach", "kills": 3, "deaths": 2, "assists": 16, "leaver_status": 0, "last_hits": 16, "denies": 1, "gold_per_min": 874, "xp_per_min": 1611, "level": 25, "net_worth": 19165, "aghanims_scepter": 0, "aghanims_shard": 1, "moonshard": 0, "hero_damage": 10055, "tower_damage": 211, "hero_healing": 0, "gold": 3265, "gold_spent": 17090, "ability_upgrades_arr": ["Earth Spike", "Mana Drain", "Mana Drain", "Hex", "Mana Drain", "Finger of Death", "Hex", "Mana Drain", "Hex", "Hex", "+65 Earth Spike Damage", "Finger of Death", "Earth Spike", "Earth Spike", "+70 Max Health Per Finger of Death Kill", "Earth Spike", "Finger of Death", "Earth Spike affects a 30 degree cone", "+600 Earth Spike cast range/travel distance"], "personaname": "Welt", "name": null, "last_login": null, "rank_tier": 43, "is_subscriber": false, "radiant_win": false, "start_time": 1735450613, "duration": 1336, "cluster": 118, "lobby_type": 0, "game_mode": 23, "is_contributor": false, "patch": 56, "region": 1, "isRadiant": false, "win": 1, "lose": 0, "total_gold": 19461, "total_xp": 35871, "kills_per_min": 0.1347305389221557, "kda": 6.33, "abandons": 0, "benchmarks": {"gold_per_min": {"raw": 874, "pct": 0.9994877049180327}, "xp_per_min": {"raw": 1611, "pct": 1}, "kills_per_min": {"raw": 0.1347305389221557, "pct": 0.48552766393442626}, "last_hits_per_min": {"raw": 0.718562874251497, "pct": 0.19249487704918034}, "hero_damage_per_min": {"raw": 451.57185628742513, "pct": 0.7010758196721312}, "hero_healing_per_min": {"raw": 0, "pct": 0.7465420081967213}, "tower_damage": {"raw": 211, "pct": 0.436859631147541}}, "hero": "Lion"}, {"player_slot": 130, "team_number": 1, "team_slot": 2, "hero_id": 76, "hero_variant": 2, "item_0": "Scythe of Vyse", "item_1": "Boots of Travel", "item_2": "Silver Edge", "item_3": "Yasha and Kaya", "item_4": "Hurricane Pike", "item_5": "Refresher Orb", "backpack_0": "Vampire Fangs", "backpack_1": null, "backpack_2": null, "item_neutral": "Timeless Relic", "kills": 9, "deaths": 2, "assists": 8, "leaver_status": 0, "last_hits": 154, "denies": 21, "gold_per_min": 1545, "xp_per_min": 2461, "level": 28, "net_worth": 33859, "aghanims_scepter": 1, "aghanims_shard": 0, "moonshard": 0, "hero_damage": 30708, "tower_damage": 1593, "hero_healing": 0, "gold": 1259, "gold_spent": 35710, "ability_upgrades_arr": ["Astral Imprisonment", "Arcane Orb", "Astral Imprisonment", "Essence Flux", "Astral Imprisonment", "Sanity's Eclipse", "Astral Imprisonment", "Arcane Orb", "Arcane Orb", "Arcane Orb", "+250 Mana", "Sanity's Eclipse", "Essence Flux", "Essence Flux", "Essence Flux", "+125 Astral Imprisonment Cast Range", "Sanity's Eclipse", "+0.2 Sanity's Eclipse Mana Difference Multiplier", "-60s Sanity's Eclipse Cooldown", "+200 Health", "+=1.5% of Current Mana as Movement Speed"], "is_subscriber": false, "radiant_win": false, "start_time": 1735450613, "duration": 1336, "cluster": 118, "lobby_type": 0, "game_mode": 23, "is_contributor": false, "patch": 56, "region": 1, "isRadiant": false, "win": 1, "lose": 0, "total_gold": 34402, "total_xp": 54798, "kills_per_min": 0.4041916167664671, "kda": 5.67, "abandons": 0, "benchmarks": {"gold_per_min": {"raw": 1545, "pct": 1}, "xp_per_min": {"raw": 2461, "pct": 1}, "kills_per_min": {"raw": 0.4041916167664671, "pct": 0.7849517031011692}, "last_hits_per_min": {"raw": 6.916167664670659, "pct": 0.8271479410269446}, "hero_damage_per_min": {"raw": 1379.1017964071855, "pct": 0.923741738688358}, "hero_healing_per_min": {"raw": 0, "pct": 0.9669547534316217}, "tower_damage": {"raw": 1593, "pct": 0.44585663446873414}}, "hero": "Outworld Devourer"}, {"player_slot": 131, "team_number": 1, "team_slot": 3, "hero_id": 42, "hero_variant": 2, "item_0": "Manta Style", "item_1": null, "item_2": null, "item_3": "Abyssal Blade", "item_4": "Radiance", "item_5": "Phase Boots", "backpack_0": null, "backpack_1": null, "backpack_2": null, "item_neutral": "Ogre Seal Totem", "kills": 3, "deaths": 5, "assists": 12, "leaver_status": 0, "last_hits": 149, "denies": 1, "gold_per_min": 1199, "xp_per_min": 2003, "level": 27, "net_worth": 26478, "aghanims_scepter": 1, "aghanims_shard": 1, "moonshard": 0, "hero_damage": 16362, "tower_damage": 4779, "hero_healing": 0, "gold": 2078, "gold_spent": 26955, "ability_upgrades_arr": ["Wraithfire Blast", "Mortal Strike", "Mortal Strike", "Spectral Blade", "Mortal Strike", "Reincarnation", "Mortal Strike", "Spectral Blade", "Spectral Blade", "Spectral Blade", "+25% Wraithfire Blast Impact Damage/DPS", "Reincarnation", "Wraithfire Blast", "Wraithfire Blast", "+400 Health", "Wraithfire Blast", "Reincarnation", "+60 Attack Speed", "Reincarnation Casts Wraithfire Blast", "+10% Vampiric Spirit Lifesteal"], "is_subscriber": false, "radiant_win": false, "start_time": 1735450613, "duration": 1336, "cluster": 118, "lobby_type": 0, "game_mode": 23, "is_contributor": false, "patch": 56, "region": 1, "isRadiant": false, "win": 1, "lose": 0, "total_gold": 26697, "total_xp": 44600, "kills_per_min": 0.1347305389221557, "kda": 2.5, "abandons": 0, "benchmarks": {"gold_per_min": {"raw": 1199, "pct": 1}, "xp_per_min": {"raw": 2003, "pct": 1}, "kills_per_min": {"raw": 0.1347305389221557, "pct": 0.313475997686524}, "last_hits_per_min": {"raw": 6.6916167664670665, "pct": 0.7203585887796414}, "hero_damage_per_min": {"raw": 734.8203592814372, "pct": 0.5641989589358011}, "hero_healing_per_min": {"raw": 0, "pct": 0.9586466165413534}, "tower_damage": {"raw": 4779, "pct": 0.5604395604395604}}, "hero": "Wraith King"}, {"player_slot": 132, "team_number": 1, "team_slot": 4, "hero_id": 88, "hero_variant": 1, "item_0": "Force Staff", "item_1": "Dagon", "item_2": "Khanda", "item_3": "Arcane Boots", "item_4": "Magic Wand", "item_5": "Eul's Scepter of Divinity", "backpack_0": null, "backpack_1": null, "backpack_2": null, "item_neutral": "Vambrace", "kills": 9, "deaths": 7, "assists": 16, "leaver_status": 0, "last_hits": 6, "denies": 1, "gold_per_min": 1019, "xp_per_min": 1595, "level": 25, "net_worth": 22513, "aghanims_scepter": 0, "aghanims_shard": 1, "moonshard": 0, "hero_damage": 18996, "tower_damage": 1552, "hero_healing": 125, "gold": 1788, "gold_spent": 21770, "ability_upgrades_arr": ["Impale", "Mind Flare", "Spiked Carapace", "Impale", "Impale", "Vendetta", "Mind Flare", "Mind Flare", "Impale", "Mind Flare", "+0.20s Impale Stun Duration", "Vendetta", "Spiked Carapace", "+0.5s Spiked Carapace Reflect Duration", "Spiked Carapace", "Spiked Carapace", "Vendetta", "+0.5s Spiked Carapace Stun Duration", "600 Mind Flare Radius"], "is_subscriber": false, "radiant_win": false, "start_time": 1735450613, "duration": 1336, "cluster": 118, "lobby_type": 0, "game_mode": 23, "is_contributor": false, "patch": 56, "region": 1, "isRadiant": false, "win": 1, "lose": 0, "total_gold": 22689, "total_xp": 35515, "kills_per_min": 0.4041916167664671, "kda": 3.13, "abandons": 0, "benchmarks": {"gold_per_min": {"raw": 1019, "pct": 1}, "xp_per_min": {"raw": 1595, "pct": 1}, "kills_per_min": {"raw": 0.4041916167664671, "pct": 0.8949699462195507}, "last_hits_per_min": {"raw": 0.2694610778443114, "pct": 0.002847200253084467}, "hero_damage_per_min": {"raw": 853.1137724550898, "pct": 0.8664979436887061}, "hero_healing_per_min": {"raw": 5.613772455089821, "pct": 0.926921860170832}, "tower_damage": {"raw": 1552, "pct": 0.7896235368554255}}, "hero": "Nyx Assassin"}], "radiant_win": false, "duration": 1336, "pre_game_duration": 60, "start_time": 1735450613, "match_id": 8103073483, "match_seq_num": 6813784854, "tower_status_radiant": 0, "tower_status_dire": 1974, "barracks_status_radiant": 0, "barracks_status_dire": 63, "cluster": 118, "first_blood_time": 7, "lobby_type": 0, "human_players": 10, "leagueid": 0, "game_mode": 23, "flags": 1, "engine": 1, "radiant_score": 20, "dire_score": 33, "picks_bans": [{"is_pick": true, "hero_id": 44, "team": 0, "order": 0, "hero": "Phantom Assassin"}, {"is_pick": true, "hero_id": 76, "team": 1, "order": 1, "hero": "Outworld Devourer"}, {"is_pick": true, "hero_id": 84, "team": 0, "order": 2, "hero": "Ogre Magi"}, {"is_pick": true, "hero_id": 26, "team": 1, "order": 3, "hero": "Lion"}, {"is_pick": true, "hero_id": 22, "team": 0, "order": 4, "hero": "Zeus"}, {"is_pick": true, "hero_id": 53, "team": 1, "order": 5, "hero": "Nature's Prophet"}, {"is_pick": true, "hero_id": 88, "team": 1, "order": 6, "hero": "Nyx Assassin"}, {"is_pick": true, "hero_id": 99, "team": 0, "order": 7, "hero": "Bristleback"}], "od_data": {"has_api": true, "has_gcdata": false, "has_parsed": false, "has_archive": false}, "metadata": null, "patch": 56, "region": 1, "info": {"item_abilities": {"Aghanim's Scepter": {"abilities": [{"type": "passive", "title": "Ability Upgrade", "description": "Upgrades the ultimate, and some abilities, of all heroes."}], "cost": 4200}, "Magic Stick": {"abilities": [{"type": "active", "title": "Energy Charge", "description": "Instantly restores 15 health and mana per charge stored.\n\n Max 10 charges. Gains a charge whenever a visible enemy within 1200 range uses an ability."}], "cost": 200}, "Arcane Boots": {"abilities": [{"type": "active", "title": "Replenish Mana", "description": "Restores 150 mana to all nearby allies.\n\nRadius: 1200"}, {"type": "passive", "title": "Basilius Aura", "description": "Grants 1 mana regeneration to allies. \n\nRadius: 1200"}], "cost": 1400}, "Tango": {"abilities": [{"type": "use", "title": "Devour", "description": "Consumes a target tree to gain 7 health regeneration for 16 seconds. Consuming an Ironwood Tree doubles the heal amount.\n\nComes with 3 charges. Can be used on an allied hero to give them one Tango.\n\nTree Range: 165"}], "cost": 90}, "Aether Lens": {"abilities": [{"type": "passive", "title": "Aethereal Focus", "description": "Increases targeted spell and item cast range."}], "cost": 2275}, "Arcane Ring": {"abilities": [{"type": "active", "title": "Replenish Mana", "description": "Restores 65 mana to all nearby allies. \n\n Radius: 1200"}], "cost": 0}, "Vanguard": {"abilities": [{"type": "passive", "title": "Damage Block", "description": "Grants a 60% chance to block 50 damage from incoming attacks on melee heroes, and 25 damage on ranged."}], "cost": 1700}, "Voodoo Mask": {"abilities": [{"type": "passive", "title": "Spell Lifesteal", "description": "Spell damage dealt to enemy heroes is returned to the caster as health, regardless of spell damage type. \n\nLifesteal reduced against creeps."}], "cost": 700}, "Rattlecage": {"abilities": [{"type": "passive", "title": "Reverberate", "description": "After taking 180 damage from any source, the wearer fires a projectile at up to 2 random enemies in a 600 radius, prioritizing heroes, that deal 125 physical damage and slow the targets movement and attack speed by 100% for 0.2s."}], "cost": 0}, "Phase Boots": {"abilities": [{"type": "active", "title": "Phase", "description": "Gives 20% increased movement speed on melee heroes, and 10% on ranged heroes, and lets you move through units and turn more quickly for 3 seconds."}], "cost": 1500}, "Black King Bar": {"abilities": [{"type": "active", "title": "Avatar", "description": "Applies a basic dispel. Grants 60% Magic resistance and immunity to pure and reflected damage. For the duration of the effect, any negative effect from enemy spells has no effect. \n\nDuration: 9 \nDispel Type: Basic Dispel"}], "cost": 4050}, "Desolator": {"abilities": [{"type": "passive", "title": "Corruption", "description": "Your attacks reduce the target's armor by -6 for 7 seconds."}, {"type": "passive", "title": "Soul Stealer", "description": "Desolator gains +2 damage every time an enemy hero dies while affected by Corruption, to a maximum of 30."}], "cost": 3500}, "Morbid Mask": {"abilities": [{"type": "passive", "title": "Lifesteal", "description": "Heals the attacker for a percentage of attack damage dealt. Lifesteal from creeps is reduced by 40%."}], "cost": 900}, "Divine Rapier": {"abilities": [{"type": "toggle", "title": "Transmute", "description": "Toggle to gain either 25% bonus spell amplification or 250 bonus attack damage."}, {"type": "passive", "title": "Everlasting", "description": "Dropped on death, and cannot be destroyed. \n\nBecomes unusable if picked up by an ally of its owner until it is returned to its owner. It is immediately usable by anybody if an enemy of the owner picks it up and is killed. A dropped Rapier cannot be picked up by a courier."}], "cost": 5600}, "Healing Lotus": {"abilities": [{"type": "use", "title": "Eat Lotus", "description": "Instantly restores 125 health and mana."}], "cost": 0}, "Dust of Appearance": {"abilities": [{"type": "use", "title": "Reveal", "description": "For 12 seconds, creates an area that reveals and slows invisible heroes by -20% in a 1050 radius where the caster was standing. Invisible units revealed by dust take 25 damage.\n\n The debuff effect on enemies lingers for 8s after leaving the area of effect."}], "cost": 80}, "Nemesis Curse": {"abilities": [{"type": "passive", "title": "Glass Cannon", "description": "Hero takes 8% more damage from all sources."}, {"type": "passive", "title": "Glassify", "description": "When attacking a hero, apply a debuff increasing the damage received by that hero by 12% for 5 seconds. Only one target can be affected by Glassify at the same time."}], "cost": 0}, "Boots of Travel": {"abilities": [{"type": "upgrade", "title": "Town Portal Scroll", "description": "Upgrades your Town Portal Scroll, allowing it to target units, reduces cooldown and does not consume a charge on usage."}], "cost": 2500}, "Blink Dagger": {"abilities": [{"type": "active", "title": "Blink", "description": "Teleport to a target point up to 1200 units away. \n\nBlink Dagger cannot be used for 3 seconds after taking damage from an enemy hero or Roshan."}], "cost": 2250}, "Hand of Midas": {"abilities": [{"type": "active", "title": "Transmute", "description": "Kills a non-hero target for 160 gold and 2.1x experience. When used on a neutral creep, guarantees to create a neutral item if available. \n\n Cannot be used on Ancient creeps."}], "cost": 2200}, "Ogre Seal Totem": {"abilities": [{"type": "active", "title": "Ogre Seal Flop", "description": "Flop forward like an ogre seal 2 times, dealing 250 damage and slowing enemies in a 275 radius by -100% for 1.5 second on each bounce. 400 bounce distance."}], "cost": 0}, "Quelling Blade": {"abilities": [{"type": "active", "title": "Chop Tree", "description": "Destroy a target tree."}, {"type": "passive", "title": "Quell", "description": "Increases attack damage against non-hero units by 8 for melee heroes, and 4 for ranged."}], "cost": 100}, "Diffusal Blade": {"abilities": [{"type": "active", "title": "Inhibit", "description": "Targets an enemy, slowing it for 4 seconds."}, {"type": "passive", "title": "Manabreak", "description": "Each attack burns 40 mana from the target, and deals 1 physical damage per burned mana. \n\nBurns 8 mana per attack from melee illusions and 8 mana per attack from ranged illusions."}], "cost": 2500}, "Power Treads": {"abilities": [{"type": "active", "title": "Switch Attribute", "description": "Switches between +10 Strength, +10 Agility, or +10 Intelligence."}], "cost": 1400}, "Monkey King Bar": {"abilities": [{"type": "passive", "title": "Pierce", "description": "Grants each attack a 80% chance to pierce through evasion and deal 70 bonus magical damage."}], "cost": 4700}, "Eye of Skadi": {"abilities": [{"type": "passive", "title": "Cold Attack", "description": "Attacks lower enemy movement by -20% if they are melee and -50% if they are ranged, as well as their attack speed by -10% if they are melee and -20% if they are ranged. Additionally it reduces all healing, lifesteal and regen by 40% Lasts for 3 seconds."}], "cost": 5300}, "Mind Breaker": {"abilities": [{"type": "passive", "title": "Silence Strike", "description": "The next attack silences the hit enemy for 2 seconds."}], "cost": 0}, "Scythe of Vyse": {"abilities": [{"type": "active", "title": "Hex", "description": "Turns a target unit into a harmless critter for 2.8 seconds. The target has a base movement speed of 140 and will be silenced, muted, and disarmed.\nInstantly destroys illusions."}], "cost": 5200}, "Silver Edge": {"abilities": [{"type": "active", "title": "Shadow Walk", "description": "Makes you invisible for 17 seconds, or until you attack or cast a spell. While invisible, you move 25% faster and can move through units. \n\nAttacking to end the invisibility will deal 300 bonus physical damage and disable their passive abilities for 6 seconds."}], "cost": 5450}, "Bloodthorn": {"abilities": [{"type": "active", "title": "Soul Rend", "description": "Silences a target for 5 seconds. At the end of the silence, an additional 60% of all damage taken during the silence will be dealt to the target as magical damage.\n\nAll attacks on the silenced target will deal additional damage equal to 50 if the attacker is a hero, and 25, if the attacker is a creep, and have True Strike."}, {"type": "passive", "title": "Pierce", "description": "Grants each attack a 40% chance to pierce through evasion and deal 60 bonus magical damage."}], "cost": 6625}, "Witch Blade": {"abilities": [{"type": "passive", "title": "Witch Blade", "description": "Causes your next attack to apply a poison for 4 seconds, slowing by 25% and dealing 0.75x your intelligence as damage every second. This attack has True Strike."}], "cost": 2775}, "Ancient Guardian": {"abilities": [{"type": "passive", "title": "Ancient Power", "description": "Grants 50 extra bonus damage as long as the unit is within 2000 range of an ancient."}], "cost": 0}, "Tranquil Boots": {"abilities": [{"type": "passive", "title": "Break", "description": "Whenever you attack a hero or are attacked by any unit, the bonus 14 HP regen is lost and the movement speed bonus is reduced to 40 for 13 seconds."}], "cost": 925}, "Lotus Orb": {"abilities": [{"type": "active", "title": "Echo Shell", "description": "Applies a shield to the target unit for 5 seconds which re-casts most targeted spells back to their caster.\n\nThe shielded unit will still take damage from the spell.\nDispel Type: Basic Dispel"}], "cost": 3850}, "Octarine Core": {"abilities": [{"type": "passive", "title": "Cooldown Reduction", "description": "Reduces the cooldown time of all spells and items."}], "cost": 4800}, "Hurricane Pike": {"abilities": [{"type": "active", "title": "Hurricane Thrust", "description": "Pushes you and target enemy 450 units away from each other, and for 6 seconds, allows you to make 5 attacks against the target without range restrictions and with +100 attack speed.\n\nCan be cast on self or allies to push the target 600 units in the direction it is facing.\nEnemy Range: 450"}, {"type": "passive", "title": "Dragon's Reach", "description": "Increases attack range of ranged heroes."}], "cost": 4450}, "Refresher Orb": {"abilities": [{"type": "active", "title": "Reset Cooldowns", "description": "Resets the cooldowns of all your items and abilities. Shares a cooldown with Refresher Shard. This item's cooldown only progresses in your hero's main inventory."}], "cost": 5000}, "Timeless Relic": {"abilities": [], "cost": 0}, "Manta Style": {"abilities": [{"type": "active", "title": "Mirror Image", "description": "Creates 2 images of your hero that last 18 seconds. \n\nMelee images deal 33% damage, while Ranged images deal 28%. Illusions take 300% damage. \n\nDispel Type: Basic Dispel"}], "cost": 4650}, "Abyssal Blade": {"abilities": [{"type": "active", "title": "Overwhelm", "description": "Stuns a target enemy unit for 1.6 seconds. \n\nPierces Spell Immunity."}, {"type": "passive", "title": "Bash", "description": "Grants melee heroes a 25% chance on hit to stun the target for 1.2 seconds and deal 120 bonus physical damage. Bash chance for ranged heroes is 10%."}, {"type": "passive", "title": "Damage Block", "description": "Grants a 60% chance to block 70 damage from incoming attacks on melee heroes, and 35 damage on ranged."}], "cost": 6250}, "Radiance": {"abilities": [{"type": "toggle", "title": "Burn", "description": "When active, scorches enemies for 60 magical damage per second and causes them to miss 15% of their attacks. Deals 150% damage to illusions. Illusions deal 35 magical damage per second.\n\nRadius: 650"}], "cost": 4700}, "Force Staff": {"abilities": [{"type": "active", "title": "Force", "description": "Pushes any target unit 600 units in the direction it is facing."}], "cost": 2200}, "Dagon": {"abilities": [{"type": "active", "title": "Energy Burst", "description": "Emits a powerful burst of magical damage upon a targeted enemy unit. Heals the caster 75% of damage dealt by Dagon. \n\nDamage: 400\n Mana Cost: 120"}], "cost": 7450}, "Khanda": {"abilities": [{"type": "passive", "title": "Empower Spell", "description": "The next Unit Target spell you cast on an enemy deals 150 + 60% of your attack damage as bonus damage to the target, and slows them by 50% for 1.5s."}, {"type": "passive", "title": "Critical Strike", "description": "Grants each attack a 30% chance to deal 160% damage."}], "cost": 5100}, "Magic Wand": {"abilities": [{"type": "active", "title": "Energy Charge", "description": "Instantly restores 15 health and mana per charge stored. \n\nMax 20 charges. Gains a charge whenever a visible enemy within 1200 range uses an ability."}], "cost": 450}, "Eul's Scepter of Divinity": {"abilities": [{"type": "active", "title": "Cyclone", "description": "Sweeps a target unit up into a cyclone, making them invulnerable for 2.5 seconds. Cyclone can only be cast on enemy units or yourself.\n\nEnemy units take 50 magical damage upon landing.\nDispel Type: Basic Dispel"}], "cost": 2625}, "Vambrace": {"abilities": [], "cost": 0}}, "abilities_details": {"Lightning Bolt": "Calls down a bolt of lightning to strike an enemy unit, causing damage and a mini-stun. When cast, Lightning Bolt briefly provides unobstructed vision and True Sight around the target in a 750 radius. Can be cast on the ground, affecting the closest enemy hero in 325 range.", "Heavenly Jump": "Zeus performs a Heavenly Jump, leaping forward and shocking the closest visible nearby enemy (prioritizing heroes), dealing damage as well as reducing their movement and attack speed. Zeus gets 900 unobstructed vision around him for 3 seconds.", "Arc Lightning": "Hurls a bolt of lightning that leaps through nearby enemy units that deal damage.", "Thundergod's Wrath": "Strikes all enemy heroes with a bolt of lightning, dealing damage, no matter where they may be.\n\nThundergod's Wrath also provides True Sight around each hero struck. If an enemy hero is invisible, it takes no damage, but the True Sight is still created at that hero's location.", "Quill Spray": "Sprays enemy units with quills dealing damage in an area of effect around Bristleback. Deals bonus damage for every time a unit was hit by Quill Spray in the last 14 seconds.", "Bristleback": "Bristleback takes less damage if hit on the sides or rear. If Bristleback takes 275 damage from the rear, he releases a Quill Spray of the current level.", "Viscous Nasal Goo": "Covers a target in snot, causing it to have reduced armor and movement speed for 6 seconds. Multiple casts stack and refresh the duration.", "Warpath": "Bristleback works himself up into a fury every time he casts a spell, increasing his movement speed and damage.", "Stifling Dagger": "Throws a dagger slowing the enemy unit's movement speed, dealing 65+30% of Phantom Assassin's attack damage as physical damage and applying attack effects from items and abilities.", "Phantom Strike": "Teleports to a unit, friendly or enemy, and grants bonus attack speed while attacking if it's an enemy unit.", "Coup de Grace": "Phantom Assassin refines her combat abilities, acquiring a chance of gaining Deadly Focus with each attack. When attacking with Deadly Focus, Phantom Assassin will consume the buff and guarantee a critical hit. Stifling Dagger has a bonus chance to cause Deadly Focus.", "Blur": "Phantom Assassin blurs her body, disjointing incoming projectiles, increasing her movement speed, causing her to be impossible to see until she attacks or comes near enemy heroes, towers, or outposts.", "Ignite": "Drenches the target and another random unit in volatile chemicals, causing it to burst into flames. The target is in immense pain, taking damage and moving more slowly.", "Bloodlust": "Incites a frenzy in a friendly unit, increasing its movement speed and attack speed. Gives bonus attacks speed if cast on Ogre himself. Can be cast on towers.", "Fireblast": "Blasts an enemy unit with a wave of fire, dealing damage and stunning the target.", "Multicast": "Enables Ogre Magi to cast his abilities and items multiple times with each use.", "Spirit Lance": "Sends a magical spirit lance to a target enemy unit that damages and slows, while summoning an illusory phantom to attack the unit.", "Phantom Rush": "When targeting an enemy for an attack, Phantom Lancer quickly charges into range, gaining a temporary agility boost. Phantom Lancer's illusions also have this ability.", "Doppelganger": "Phantom Lancer briefly vanishes from the battlefield. After 1 second, Phantom Lancer and any of his nearby illusions reappear at a random position within the targeted location, along with two additional doppelgangers. Extends duration of all illusions. The two added doppelgangers have different properties: one takes normal damage and deals none, while the other takes 500% bonus damage and deals -80% less damage.\n\nDISPEL TYPE: Basic Dispel", "Juxtapose": "Phantom Lancer has a chance to fracture his presence on an attack, creating an illusion of himself. Illusions also have a chance to fracture further. Illusions created from Phantom Lancer last for 8 seconds, while illusions created from other illusions last 4 seconds.", "Nature's Call": "Converts an area of trees into Treants under the command of Nature's Prophet.", "Sprout": "Sprouts a ring of trees around a unit, damaging and trapping it in place and providing vision in a 250 radius.", "Teleportation": "Teleports to any point on the map. Gains a barrier after arriving to its destination.", "Wrath of Nature": "Damaging energy bounces around the map, striking enemies that are in vision starting with those closest to the cast point. Each enemy hit beyond the first adds damage, up to the maximum after 16 are hit.", "Earth Spike": "Rock spikes burst from the earth along a straight path. Enemy units are hurled into the air, then are stunned and take damage when they fall.", "Mana Drain": "CHANNELED - Channels magical energy, taking mana and slowing enemies over time. If the enemy has no mana remaining, the slow is increased by 15%. \n\n Can target allies to give them mana and movement speed at a 50% rate.", "Hex": "Transforms an enemy unit into a harmless beast, with all special abilities disabled.", "Finger of Death": "Rips at an enemy unit, trying to turn it inside-out. Deals massive damage and grows stronger with each life it consumes.", "Astral Imprisonment": "Places a target unit into an astral prison. The hidden unit is invulnerable and disabled. When the astral prison implodes, it deals damage to the target and steals a percentage of their max mana.", "Arcane Orb": "Adds extra pure damage to Outworld Destroyer's attacks, based on his remaining mana pool.", "Essence Flux": "Passively grants a chance to restore a percentage of your max mana each time you cast an ability.", "Sanity's Eclipse": "Unleashes a psychic blast that deals damage to enemies based on the difference between your mana and the target's mana. Sanity's Eclipse can hit units trapped by Astral Imprisonment. Deals bonus damage to illusions.", "Wraithfire Blast": "Wraith King sears an enemy unit with spectral fire, dealing damage and stunning, then dealing damage over time and slowing the target.", "Mortal Strike": "Wraith King passively deals bonus damage on an attack with a cooldown.", "Spectral Blade": "Curses units that Wraith King attacks, dealing a flat amount of damage and a percentage of the attack damage again after a delay. Vampiric Spirit's lifesteal applies to the curse damage and a unit cannot be cursed again for a short period of time.", "Reincarnation": "Wraith King's form regroups after death, allowing him to resurrect when killed in battle. Upon death, enemy units in a 900 radius are slowed. Can be self-cast to kill Wraith King instantly.", "Impale": "Rock spikes burst from the earth along a straight path. Enemy units take damage, then are hurled into the air and stunned.", "Mind Flare": "Deals damages to the enemy equal to a percentage of its Max Mana. Additionally deals damage equal to a percentage of damage the target received from Nyx Assassin in the past 15s. Instantly kills non-ancient creeps.", "Spiked Carapace": "When activated while above ground, Spiked Carapace reflects and negates damage dealt to Nyx Assassin (max once from each source), as well as stunning the source of the damage. Activating Spiked Carapace will not break Vendetta invisibility.\n\nWhile Burrowed, Spiked Carapace instantly stuns nearby enemies when cast.", "Vendetta": "Allows Nyx Assassin to become invisible and gain a speed bonus. If Nyx Assassin attacks to break the invisibility, massive bonus damage is dealt with the attack. Nyx Assassin has 75 additional attack range and a 70% faster attack animation for this attack."}}}
+{
+    "teamfights": [
+        {
+            "start": -25,
+            "end": 16,
+            "last_death": 1,
+            "deaths": 3,
+            "players": [
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "tango": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 337,
+                    "healing": 14,
+                    "gold_delta": 40,
+                    "xp_delta": 0
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "invoker_sun_strike": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                    },
+                    "killed": {
+                        "npc_dota_hero_drow_ranger": 1
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 100,
+                    "healing": 0,
+                    "gold_delta": 170,
+                    "xp_delta": 22
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "treant_natures_grasp": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                    },
+                    "killed": {
+                        "npc_dota_hero_dazzle": 1
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 996,
+                    "healing": 0,
+                    "gold_delta": 337,
+                    "xp_delta": 42
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "warlock_shadow_word": 2
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "ward_dispenser": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 367,
+                    "healing": 270,
+                    "gold_delta": 40,
+                    "xp_delta": 0
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "venomancer_venomous_gale": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "tpscroll": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 199,
+                    "healing": 0,
+                    "gold_delta": 81,
+                    "xp_delta": 20
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "ward_observer": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 0,
+                    "healing": 0,
+                    "gold_delta": 80,
+                    "xp_delta": 0
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "slardar_slithereen_crush": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 280,
+                    "healing": 0,
+                    "gold_delta": 80,
+                    "xp_delta": 0
+                },
+                {
+                    "deaths_pos": {
+                        "100": {
+                            "162": 1
+                        }
+                    },
+                    "ability_uses": {
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "tpscroll": 1
+                    },
+                    "killed": {
+                        "npc_dota_hero_venomancer": 1
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 646,
+                    "healing": 0,
+                    "gold_delta": 196,
+                    "xp_delta": 42
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "jakiro_dual_breath": 2
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "tango": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 456,
+                    "healing": 0,
+                    "gold_delta": 80,
+                    "xp_delta": 0
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "dazzle_poison_touch": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "tpscroll": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 267,
+                    "healing": 0,
+                    "gold_delta": 97,
+                    "xp_delta": 0
+                }
+            ]
+        },
+        {
+            "start": 240,
+            "end": 283,
+            "last_death": 268,
+            "deaths": 3,
+            "players": [
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "monkey_king_mischief": 1,
+                        "monkey_king_untransform": 1,
+                        "monkey_king_boundless_strike": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "faerie_fire": 1,
+                        "magic_stick": 1,
+                        "tango": 1
+                    },
+                    "killed": {
+                        "npc_dota_hero_slardar": 1
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 662,
+                    "healing": 248,
+                    "gold_delta": 249,
+                    "xp_delta": 282,
+                    "xp_start": 811,
+                    "xp_end": 1093
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "invoker_exort": 9,
+                        "invoker_sun_strike": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 375,
+                    "healing": 0,
+                    "gold_delta": 119,
+                    "xp_delta": 366,
+                    "xp_start": 1637,
+                    "xp_end": 2003
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "treant_natures_grasp": 1,
+                        "treant_leech_seed": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "tango": 1
+                    },
+                    "killed": {
+                        "npc_dota_hero_drow_ranger": 1
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 757,
+                    "healing": 36,
+                    "gold_delta": 238,
+                    "xp_delta": 444,
+                    "xp_start": 834,
+                    "xp_end": 1221
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "warlock_shadow_word": 1,
+                        "warlock_fatal_bonds": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "tango": 1,
+                        "enchanted_mango": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 208,
+                    "healing": 300,
+                    "gold_delta": 41,
+                    "xp_delta": 168,
+                    "xp_start": 804,
+                    "xp_end": 972
+                },
+                {
+                    "deaths_pos": {
+                        "80": {
+                            "164": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "venomancer_venomous_gale": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                    },
+                    "killed": {
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 207,
+                    "healing": 0,
+                    "gold_delta": 48,
+                    "xp_delta": 42,
+                    "xp_start": 812,
+                    "xp_end": 854
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "storm_spirit_static_remnant": 3
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "bottle": 4
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 55,
+                    "healing": 1,
+                    "gold_delta": 188,
+                    "xp_delta": 354,
+                    "xp_start": 1708,
+                    "xp_end": 2062
+                },
+                {
+                    "deaths_pos": {
+                        "172": {
+                            "102": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "slardar_slithereen_crush": 2
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                    },
+                    "killed": {
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 435,
+                    "healing": 0,
+                    "gold_delta": -29,
+                    "xp_delta": 30,
+                    "xp_start": 490,
+                    "xp_end": 520
+                },
+                {
+                    "deaths_pos": {
+                        "84": {
+                            "168": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "drow_ranger_multishot": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                    },
+                    "killed": {
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 564,
+                    "healing": 0,
+                    "gold_delta": 5,
+                    "xp_delta": 179,
+                    "xp_start": 766,
+                    "xp_end": 945
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "jakiro_dual_breath": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "flask": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 444,
+                    "healing": 0,
+                    "gold_delta": 72,
+                    "xp_delta": 285,
+                    "xp_start": 877,
+                    "xp_end": 1162
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "dazzle_poison_touch": 1,
+                        "dazzle_shadow_wave": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "enchanted_mango": 1
+                    },
+                    "killed": {
+                        "npc_dota_hero_venomancer": 1
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 373,
+                    "healing": 160,
+                    "gold_delta": 164,
+                    "xp_delta": 207,
+                    "xp_start": 696,
+                    "xp_end": 903
+                }
+            ]
+        },
+        {
+            "start": 569,
+            "end": 604,
+            "last_death": 589,
+            "deaths": 3,
+            "players": [
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "monkey_king_boundless_strike": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "phase_boots": 2
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 1181,
+                    "healing": 98,
+                    "gold_delta": 88,
+                    "xp_delta": 590,
+                    "xp_start": 2511,
+                    "xp_end": 3101
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "invoker_exort": 18,
+                        "invoker_invoke": 3,
+                        "invoker_sun_strike": 1,
+                        "invoker_wex": 4,
+                        "invoker_quas": 3,
+                        "invoker_cold_snap": 1,
+                        "invoker_alacrity": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "phase_boots": 3
+                    },
+                    "killed": {
+                        "npc_dota_hero_jakiro": 1
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 323,
+                    "healing": 0,
+                    "gold_delta": 303,
+                    "xp_delta": 604,
+                    "xp_start": 4230,
+                    "xp_end": 4834
+                },
+                {
+                    "deaths_pos": {
+                        "108": {
+                            "174": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "treant_natures_grasp": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                    },
+                    "killed": {
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 579,
+                    "healing": 0,
+                    "gold_delta": 66,
+                    "xp_delta": 284,
+                    "xp_start": 3311,
+                    "xp_end": 3595
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "warlock_fatal_bonds": 1,
+                        "warlock_shadow_word": 2
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "magic_wand": 1,
+                        "clarity": 1,
+                        "enchanted_mango": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 307,
+                    "healing": 1230,
+                    "gold_delta": 37,
+                    "xp_delta": 288,
+                    "xp_start": 1704,
+                    "xp_end": 1992
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "venomancer_venomous_gale": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                    },
+                    "killed": {
+                        "npc_dota_hero_storm_spirit": 1
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 137,
+                    "healing": 0,
+                    "gold_delta": 268,
+                    "xp_delta": 767,
+                    "xp_start": 2034,
+                    "xp_end": 2801
+                },
+                {
+                    "deaths_pos": {
+                        "110": {
+                            "174": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "storm_spirit_ball_lightning": 3,
+                        "storm_spirit_static_remnant": 2
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "bottle": 2
+                    },
+                    "killed": {
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 821,
+                    "healing": 2,
+                    "gold_delta": 142,
+                    "xp_delta": 690,
+                    "xp_start": 3465,
+                    "xp_end": 4155
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "slardar_slithereen_crush": 1,
+                        "slardar_sprint": 2
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 528,
+                    "healing": 0,
+                    "gold_delta": 60,
+                    "xp_delta": 308,
+                    "xp_start": 1404,
+                    "xp_end": 1712
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "drow_ranger_multishot": 1,
+                        "drow_ranger_wave_of_silence": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                    },
+                    "killed": {
+                        "npc_dota_hero_treant": 1
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 395,
+                    "healing": 0,
+                    "gold_delta": 533,
+                    "xp_delta": 747,
+                    "xp_start": 2275,
+                    "xp_end": 3022
+                },
+                {
+                    "deaths_pos": {
+                        "172": {
+                            "100": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "jakiro_dual_breath": 1,
+                        "jakiro_ice_path": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                    },
+                    "killed": {
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 617,
+                    "healing": 0,
+                    "gold_delta": 50,
+                    "xp_delta": 194,
+                    "xp_start": 2537,
+                    "xp_end": 2731
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 0,
+                    "healing": 0,
+                    "gold_delta": 149,
+                    "xp_delta": 312,
+                    "xp_start": 1550,
+                    "xp_end": 1862
+                }
+            ]
+        },
+        {
+            "start": 776,
+            "end": 816,
+            "last_death": 801,
+            "deaths": 3,
+            "players": [
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "monkey_king_boundless_strike": 1,
+                        "monkey_king_wukongs_command": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "phase_boots": 1,
+                        "tpscroll": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 132,
+                    "healing": 0,
+                    "gold_delta": 260,
+                    "xp_delta": 565,
+                    "xp_start": 4374,
+                    "xp_end": 4862
+                },
+                {
+                    "deaths_pos": {
+                        "116": {
+                            "120": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "invoker_wex": 5,
+                        "invoker_tornado": 1,
+                        "invoker_chaos_meteor": 1,
+                        "invoker_quas": 8,
+                        "invoker_exort": 3,
+                        "invoker_invoke": 1,
+                        "invoker_deafening_blast": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "phase_boots": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 895,
+                    "healing": 0,
+                    "gold_delta": -31,
+                    "xp_delta": 191,
+                    "xp_start": 5682,
+                    "xp_end": 5873
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "treant_overgrowth": 1,
+                        "treant_natures_grasp": 2,
+                        "treant_leech_seed": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "clarity": 2
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 879,
+                    "healing": 145,
+                    "gold_delta": 137,
+                    "xp_delta": 530,
+                    "xp_start": 4743,
+                    "xp_end": 4996
+                },
+                {
+                    "deaths_pos": {
+                        "108": {
+                            "168": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "warlock_shadow_word": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "magic_wand": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 47,
+                    "healing": 465,
+                    "gold_delta": -24,
+                    "xp_delta": 0,
+                    "xp_start": 2856,
+                    "xp_end": 2856
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "venomancer_plague_ward": 4,
+                        "venomancer_poison_nova": 1,
+                        "venomancer_venomous_gale": 2
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "flask": 1,
+                        "magic_wand": 1
+                    },
+                    "killed": {
+                        "npc_dota_hero_slardar": 1,
+                        "npc_dota_hero_jakiro": 1
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 1630,
+                    "healing": 565,
+                    "gold_delta": 442,
+                    "xp_delta": 530,
+                    "xp_start": 4065,
+                    "xp_end": 4318
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "storm_spirit_ball_lightning": 2,
+                        "storm_spirit_electric_vortex": 1,
+                        "storm_spirit_static_remnant": 2
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "enchanted_mango": 3,
+                        "dust": 1,
+                        "bottle": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 773,
+                    "healing": 0,
+                    "gold_delta": 277,
+                    "xp_delta": 633,
+                    "xp_start": 5175,
+                    "xp_end": 5808
+                },
+                {
+                    "deaths_pos": {
+                        "94": {
+                            "158": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "slardar_sprint": 1,
+                        "slardar_amplify_damage": 2,
+                        "slardar_slithereen_crush": 2
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                    },
+                    "killed": {
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 651,
+                    "healing": 0,
+                    "gold_delta": -26,
+                    "xp_delta": 262,
+                    "xp_start": 3331,
+                    "xp_end": 3593
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "drow_ranger_wave_of_silence": 2,
+                        "drow_ranger_multishot": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "magic_wand": 2
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 90,
+                    "healing": 120,
+                    "gold_delta": 150,
+                    "xp_delta": 372,
+                    "xp_start": 4249,
+                    "xp_end": 4621
+                },
+                {
+                    "deaths_pos": {
+                        "116": {
+                            "156": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "jakiro_ice_path": 3,
+                        "jakiro_macropyre": 1,
+                        "jakiro_dual_breath": 2
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "ward_dispenser": 2
+                    },
+                    "killed": {
+                        "npc_dota_hero_warlock": 1
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 1999,
+                    "healing": 0,
+                    "gold_delta": 163,
+                    "xp_delta": 276,
+                    "xp_start": 3683,
+                    "xp_end": 3958
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "dazzle_shallow_grave": 1,
+                        "dazzle_shadow_wave": 3,
+                        "dazzle_poison_touch": 2
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                    },
+                    "killed": {
+                        "npc_dota_hero_invoker": 1
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 419,
+                    "healing": 240,
+                    "gold_delta": 253,
+                    "xp_delta": 306,
+                    "xp_start": 2435,
+                    "xp_end": 2740
+                }
+            ]
+        },
+        {
+            "start": 996,
+            "end": 1037,
+            "last_death": 1022,
+            "deaths": 4,
+            "players": [
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "monkey_king_tree_dance": 2,
+                        "monkey_king_primal_spring": 1,
+                        "monkey_king_boundless_strike": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "phase_boots": 3
+                    },
+                    "killed": {
+                        "npc_dota_hero_slardar": 1
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 1085,
+                    "healing": 35,
+                    "gold_delta": 203,
+                    "xp_delta": 386,
+                    "xp_start": 6538,
+                    "xp_end": 6896
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "invoker_exort": 12,
+                        "invoker_quas": 3,
+                        "invoker_invoke": 3,
+                        "invoker_forge_spirit": 2,
+                        "invoker_sun_strike": 1,
+                        "invoker_wex": 2,
+                        "invoker_alacrity": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "phase_boots": 2
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 437,
+                    "healing": 0,
+                    "gold_delta": 442,
+                    "xp_delta": 738,
+                    "xp_start": 6788,
+                    "xp_end": 7433
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "treant_natures_grasp": 3,
+                        "treant_living_armor": 1,
+                        "treant_leech_seed": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "meteor_hammer": 2
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 277,
+                    "healing": 155,
+                    "gold_delta": 281,
+                    "xp_delta": 899,
+                    "xp_start": 7337,
+                    "xp_end": 8208
+                },
+                {
+                    "deaths_pos": {
+                        "134": {
+                            "140": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "warlock_shadow_word": 2,
+                        "warlock_fatal_bonds": 1,
+                        "warlock_rain_of_chaos": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "magic_wand": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 882,
+                    "healing": 345,
+                    "gold_delta": 50,
+                    "xp_delta": 401,
+                    "xp_start": 3227,
+                    "xp_end": 3628
+                },
+                {
+                    "deaths_pos": {
+                        "138": {
+                            "144": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "venomancer_plague_ward": 2,
+                        "venomancer_venomous_gale": 1,
+                        "venomancer_poison_nova": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "magic_wand": 1
+                    },
+                    "killed": {
+                        "npc_dota_hero_drow_ranger": 1
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 1513,
+                    "healing": 90,
+                    "gold_delta": 133,
+                    "xp_delta": 112,
+                    "xp_start": 5324,
+                    "xp_end": 5436
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "storm_spirit_static_remnant": 3,
+                        "storm_spirit_ball_lightning": 3,
+                        "storm_spirit_electric_vortex": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "bottle": 13
+                    },
+                    "killed": {
+                        "npc_dota_hero_venomancer": 1
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 833,
+                    "healing": 340,
+                    "gold_delta": 309,
+                    "xp_delta": 312,
+                    "xp_start": 6761,
+                    "xp_end": 7073
+                },
+                {
+                    "deaths_pos": {
+                        "134": {
+                            "140": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "slardar_sprint": 1,
+                        "slardar_amplify_damage": 2,
+                        "slardar_slithereen_crush": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                    },
+                    "killed": {
+                        "npc_dota_hero_warlock": 1
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 756,
+                    "healing": 0,
+                    "gold_delta": 153,
+                    "xp_delta": 511,
+                    "xp_start": 4702,
+                    "xp_end": 5213
+                },
+                {
+                    "deaths_pos": {
+                        "142": {
+                            "150": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "drow_ranger_wave_of_silence": 2,
+                        "drow_ranger_multishot": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "magic_wand": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 894,
+                    "healing": 75,
+                    "gold_delta": -33,
+                    "xp_delta": 397,
+                    "xp_start": 5471,
+                    "xp_end": 5868
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "jakiro_ice_path": 1,
+                        "jakiro_dual_breath": 2,
+                        "jakiro_macropyre": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "ward_dispenser": 2
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 1059,
+                    "healing": 0,
+                    "gold_delta": 217,
+                    "xp_delta": 453,
+                    "xp_start": 4540,
+                    "xp_end": 4993
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "dazzle_shadow_wave": 3,
+                        "dazzle_shallow_grave": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "arcane_boots": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 38,
+                    "healing": 332,
+                    "gold_delta": 51,
+                    "xp_delta": 499,
+                    "xp_start": 2772,
+                    "xp_end": 3271
+                }
+            ]
+        },
+        {
+            "start": 1188,
+            "end": 1229,
+            "last_death": 1214,
+            "deaths": 3,
+            "players": [
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "monkey_king_tree_dance": 1,
+                        "monkey_king_boundless_strike": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "tpscroll": 1,
+                        "phase_boots": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 0,
+                    "healing": 0,
+                    "gold_delta": 160,
+                    "xp_delta": 350,
+                    "xp_start": 8442,
+                    "xp_end": 8792
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "invoker_wex": 13,
+                        "invoker_quas": 13,
+                        "invoker_invoke": 7,
+                        "invoker_exort": 9,
+                        "invoker_tornado": 1,
+                        "invoker_chaos_meteor": 1,
+                        "invoker_deafening_blast": 1,
+                        "invoker_cold_snap": 1,
+                        "invoker_ghost_walk": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "phase_boots": 3,
+                        "spirit_vessel": 1
+                    },
+                    "killed": {
+                        "npc_dota_hero_jakiro": 1
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 1248,
+                    "healing": 0,
+                    "gold_delta": 395,
+                    "xp_delta": 939,
+                    "xp_start": 8935,
+                    "xp_end": 9874
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "treant_natures_grasp": 2
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "trusty_shovel": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 0,
+                    "healing": 0,
+                    "gold_delta": 684,
+                    "xp_delta": 1089,
+                    "xp_start": 8558,
+                    "xp_end": 9647
+                },
+                {
+                    "deaths_pos": {
+                        "156": {
+                            "126": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "warlock_shadow_word": 1,
+                        "warlock_fatal_bonds": 1,
+                        "warlock_rain_of_chaos": 1,
+                        "warlock_upheaval": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "magic_wand": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 1034,
+                    "healing": 120,
+                    "gold_delta": 211,
+                    "xp_delta": 911,
+                    "xp_start": 4089,
+                    "xp_end": 5000
+                },
+                {
+                    "deaths_pos": {
+                        "156": {
+                            "130": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "venomancer_plague_ward": 2,
+                        "venomancer_venomous_gale": 1,
+                        "venomancer_poison_nova": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "rod_of_atos": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 709,
+                    "healing": 0,
+                    "gold_delta": 238,
+                    "xp_delta": 397,
+                    "xp_start": 6619,
+                    "xp_end": 7016
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "storm_spirit_ball_lightning": 4,
+                        "storm_spirit_electric_vortex": 1,
+                        "storm_spirit_static_remnant": 3
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "bottle": 5
+                    },
+                    "killed": {
+                        "npc_dota_hero_venomancer": 1,
+                        "npc_dota_hero_warlock": 1
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 1557,
+                    "healing": 87,
+                    "gold_delta": 665,
+                    "xp_delta": 908,
+                    "xp_start": 10071,
+                    "xp_end": 10979
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "slardar_slithereen_crush": 1,
+                        "slardar_sprint": 2
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "blink": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 0,
+                    "healing": 0,
+                    "gold_delta": 80,
+                    "xp_delta": 57,
+                    "xp_start": 6156,
+                    "xp_end": 6213
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "drow_ranger_multishot": 1,
+                        "drow_ranger_wave_of_silence": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "tpscroll": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 294,
+                    "healing": 0,
+                    "gold_delta": 252,
+                    "xp_delta": 347,
+                    "xp_start": 7045,
+                    "xp_end": 7364
+                },
+                {
+                    "deaths_pos": {
+                        "154": {
+                            "134": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "jakiro_ice_path": 1,
+                        "jakiro_macropyre": 1,
+                        "jakiro_dual_breath": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "mekansm": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 828,
+                    "healing": 343,
+                    "gold_delta": 134,
+                    "xp_delta": 476,
+                    "xp_start": 6048,
+                    "xp_end": 6524
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "arcane_boots": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 0,
+                    "healing": 0,
+                    "gold_delta": 123,
+                    "xp_delta": 460,
+                    "xp_start": 4328,
+                    "xp_end": 4760
+                }
+            ]
+        },
+        {
+            "start": 1398,
+            "end": 1442,
+            "last_death": 1427,
+            "deaths": 4,
+            "players": [
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "monkey_king_boundless_strike": 2,
+                        "monkey_king_wukongs_command": 1,
+                        "monkey_king_tree_dance": 2
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "phase_boots": 4
+                    },
+                    "killed": {
+                        "npc_dota_hero_dazzle": 1,
+                        "npc_dota_hero_jakiro": 1
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 3483,
+                    "healing": 192,
+                    "gold_delta": 729,
+                    "xp_delta": 1965,
+                    "xp_start": 10145,
+                    "xp_end": 12110
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "invoker_quas": 19,
+                        "invoker_exort": 6,
+                        "invoker_tornado": 1,
+                        "invoker_wex": 6,
+                        "invoker_invoke": 3,
+                        "invoker_deafening_blast": 1,
+                        "invoker_chaos_meteor": 1,
+                        "invoker_cold_snap": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "phase_boots": 2,
+                        "blink": 1,
+                        "spirit_vessel": 1
+                    },
+                    "killed": {
+                        "npc_dota_hero_slardar": 1
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 662,
+                    "healing": 0,
+                    "gold_delta": 526,
+                    "xp_delta": 1965,
+                    "xp_start": 11464,
+                    "xp_end": 13429
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "treant_overgrowth": 1,
+                        "treant_natures_grasp": 2,
+                        "treant_leech_seed": 2,
+                        "treant_living_armor": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "meteor_hammer": 2,
+                        "necronomicon": 1
+                    },
+                    "killed": {
+                        "npc_dota_hero_storm_spirit": 1
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 1923,
+                    "healing": 497,
+                    "gold_delta": 752,
+                    "xp_delta": 1965,
+                    "xp_start": 11047,
+                    "xp_end": 13012
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "warlock_fatal_bonds": 1,
+                        "warlock_rain_of_chaos": 1,
+                        "warlock_upheaval": 1,
+                        "warlock_shadow_word": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 2087,
+                    "healing": 540,
+                    "gold_delta": 257,
+                    "xp_delta": 663,
+                    "xp_start": 6538,
+                    "xp_end": 7201
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "venomancer_plague_ward": 2
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "tpscroll": 1,
+                        "rod_of_atos": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 0,
+                    "healing": 0,
+                    "gold_delta": 86,
+                    "xp_delta": 351,
+                    "xp_start": 7735,
+                    "xp_end": 8086
+                },
+                {
+                    "deaths_pos": {
+                        "182": {
+                            "96": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "storm_spirit_ball_lightning": 4,
+                        "storm_spirit_electric_vortex": 1,
+                        "storm_spirit_static_remnant": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "tpscroll": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 980,
+                    "healing": 0,
+                    "gold_delta": -233,
+                    "xp_delta": 0,
+                    "xp_start": 13925,
+                    "xp_end": 13925
+                },
+                {
+                    "deaths_pos": {
+                        "178": {
+                            "92": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "slardar_slithereen_crush": 3,
+                        "slardar_amplify_damage": 1,
+                        "slardar_sprint": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "blink": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 124,
+                    "healing": 0,
+                    "gold_delta": -138,
+                    "xp_delta": 0,
+                    "xp_start": 8600,
+                    "xp_end": 8600
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 0,
+                    "healing": 0,
+                    "gold_delta": 102,
+                    "xp_delta": 135,
+                    "xp_start": 8419,
+                    "xp_end": 8554
+                },
+                {
+                    "deaths_pos": {
+                        "170": {
+                            "114": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "jakiro_ice_path": 1,
+                        "jakiro_dual_breath": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "mekansm": 1,
+                        "arcane_boots": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 807,
+                    "healing": 495,
+                    "gold_delta": 39,
+                    "xp_delta": 158,
+                    "xp_start": 8681,
+                    "xp_end": 8839
+                },
+                {
+                    "deaths_pos": {
+                        "178": {
+                            "114": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "dazzle_shadow_wave": 1,
+                        "dazzle_shallow_grave": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                    },
+                    "killed": {
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 0,
+                    "healing": 0,
+                    "gold_delta": -55,
+                    "xp_delta": 158,
+                    "xp_start": 6460,
+                    "xp_end": 6618
+                }
+            ]
+        },
+        {
+            "start": 1450,
+            "end": 1489,
+            "last_death": 1474,
+            "deaths": 3,
+            "players": [
+                {
+                    "deaths_pos": {
+                        "184": {
+                            "160": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "monkey_king_tree_dance": 3
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "phase_boots": 2,
+                        "magic_wand": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 579,
+                    "healing": 401,
+                    "gold_delta": -113,
+                    "xp_delta": 669,
+                    "xp_start": 12121,
+                    "xp_end": 12790
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "invoker_quas": 8,
+                        "invoker_invoke": 7,
+                        "invoker_wex": 5,
+                        "invoker_cold_snap": 1,
+                        "invoker_tornado": 1,
+                        "invoker_exort": 10,
+                        "invoker_ice_wall": 1,
+                        "invoker_deafening_blast": 1,
+                        "invoker_sun_strike": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "phase_boots": 4,
+                        "blink": 1,
+                        "spirit_vessel": 1
+                    },
+                    "killed": {
+                        "npc_dota_hero_drow_ranger": 1
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 943,
+                    "healing": 0,
+                    "gold_delta": 303,
+                    "xp_delta": 753,
+                    "xp_start": 13440,
+                    "xp_end": 14193
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "treant_natures_grasp": 2,
+                        "treant_living_armor": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "trusty_shovel": 1,
+                        "meteor_hammer": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 209,
+                    "healing": 7,
+                    "gold_delta": 117,
+                    "xp_delta": 195,
+                    "xp_start": 13023,
+                    "xp_end": 13218
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "ward_sentry": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 24,
+                    "healing": 0,
+                    "gold_delta": 0,
+                    "xp_delta": 54,
+                    "xp_start": 7212,
+                    "xp_end": 7266
+                },
+                {
+                    "deaths_pos": {
+                        "174": {
+                            "152": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "venomancer_plague_ward": 2,
+                        "venomancer_venomous_gale": 1,
+                        "venomancer_poison_nova": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "rod_of_atos": 1,
+                        "veil_of_discord": 1,
+                        "magic_wand": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 1859,
+                    "healing": 30,
+                    "gold_delta": 5,
+                    "xp_delta": 54,
+                    "xp_start": 8097,
+                    "xp_end": 8151
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "storm_spirit_ball_lightning": 8,
+                        "storm_spirit_static_remnant": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "bottle": 22
+                    },
+                    "killed": {
+                        "npc_dota_hero_venomancer": 1,
+                        "npc_dota_hero_monkey_king": 1
+                    },
+                    "deaths": 0,
+                    "buybacks": 1,
+                    "damage": 1570,
+                    "healing": 147,
+                    "gold_delta": 163,
+                    "xp_delta": 1152,
+                    "xp_start": 13925,
+                    "xp_end": 15077
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "slardar_sprint": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "blink": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 0,
+                    "healing": 0,
+                    "gold_delta": 0,
+                    "xp_delta": 31,
+                    "xp_start": 8600,
+                    "xp_end": 8631
+                },
+                {
+                    "deaths_pos": {
+                        "178": {
+                            "160": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "drow_ranger_multishot": 1,
+                        "drow_ranger_wave_of_silence": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "magic_wand": 1,
+                        "power_treads": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 1684,
+                    "healing": 146,
+                    "gold_delta": 71,
+                    "xp_delta": 613,
+                    "xp_start": 8554,
+                    "xp_end": 9167
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "jakiro_ice_path": 1,
+                        "jakiro_dual_breath": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "arcane_boots": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 316,
+                    "healing": 0,
+                    "gold_delta": 88,
+                    "xp_delta": 712,
+                    "xp_start": 8839,
+                    "xp_end": 9551
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "dazzle_poison_touch": 1,
+                        "dazzle_shallow_grave": 1,
+                        "dazzle_shadow_wave": 2
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "arcane_boots": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 563,
+                    "healing": 343,
+                    "gold_delta": 102,
+                    "xp_delta": 751,
+                    "xp_start": 6618,
+                    "xp_end": 7369
+                }
+            ]
+        },
+        {
+            "start": 1844,
+            "end": 1904,
+            "last_death": 1889,
+            "deaths": 7,
+            "players": [
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "monkey_king_wukongs_command": 1,
+                        "monkey_king_boundless_strike": 2,
+                        "monkey_king_tree_dance": 4,
+                        "monkey_king_primal_spring": 1,
+                        "monkey_king_mischief": 1,
+                        "monkey_king_untransform": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "black_king_bar": 1,
+                        "phase_boots": 4,
+                        "magic_wand": 1,
+                        "flask": 1,
+                        "tpscroll": 1
+                    },
+                    "killed": {
+                        "npc_dota_hero_jakiro": 1
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 3867,
+                    "healing": 803,
+                    "gold_delta": 445,
+                    "xp_delta": 2619,
+                    "xp_start": 15678,
+                    "xp_end": 18297
+                },
+                {
+                    "deaths_pos": {
+                        "112": {
+                            "130": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "invoker_invoke": 7,
+                        "invoker_ice_wall": 1,
+                        "invoker_quas": 26,
+                        "invoker_cold_snap": 1,
+                        "invoker_wex": 9,
+                        "invoker_exort": 9,
+                        "invoker_alacrity": 1,
+                        "invoker_sun_strike": 1,
+                        "invoker_deafening_blast": 1,
+                        "invoker_ghost_walk": 1,
+                        "invoker_tornado": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "spirit_vessel": 2,
+                        "phase_boots": 3
+                    },
+                    "killed": {
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 2352,
+                    "healing": 1,
+                    "gold_delta": 153,
+                    "xp_delta": 690,
+                    "xp_start": 18521,
+                    "xp_end": 19211
+                },
+                {
+                    "deaths_pos": {
+                        "170": {
+                            "106": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "treant_overgrowth": 1,
+                        "treant_natures_grasp": 1,
+                        "treant_leech_seed": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "necronomicon": 1,
+                        "rod_of_atos": 1,
+                        "meteor_hammer": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 845,
+                    "healing": 389,
+                    "gold_delta": -274,
+                    "xp_delta": 259,
+                    "xp_start": 15801,
+                    "xp_end": 16060
+                },
+                {
+                    "deaths_pos": {
+                        "140": {
+                            "132": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "warlock_shadow_word": 2,
+                        "warlock_fatal_bonds": 1,
+                        "warlock_upheaval": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "tome_of_knowledge": 1,
+                        "tpscroll": 1,
+                        "arcane_boots": 1,
+                        "magic_wand": 1
+                    },
+                    "killed": {
+                        "npc_dota_hero_drow_ranger": 1
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 238,
+                    "healing": 1215,
+                    "gold_delta": 280,
+                    "xp_delta": 2881,
+                    "xp_start": 8639,
+                    "xp_end": 11520
+                },
+                {
+                    "deaths_pos": {
+                        "124": {
+                            "138": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "venomancer_venomous_gale": 2,
+                        "venomancer_plague_ward": 3
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "tpscroll": 1,
+                        "rod_of_atos": 1,
+                        "veil_of_discord": 1,
+                        "glimmer_cape": 1
+                    },
+                    "killed": {
+                        "npc_dota_hero_dazzle": 1
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 1522,
+                    "healing": 0,
+                    "gold_delta": 359,
+                    "xp_delta": 528,
+                    "xp_start": 11485,
+                    "xp_end": 12013
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "storm_spirit_ball_lightning": 12,
+                        "storm_spirit_electric_vortex": 1,
+                        "storm_spirit_static_remnant": 6
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "bottle": 6,
+                        "dust": 1,
+                        "cyclone": 1
+                    },
+                    "killed": {
+                        "npc_dota_hero_treant": 1,
+                        "npc_dota_hero_warlock": 1
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 5255,
+                    "healing": 375,
+                    "gold_delta": 1545,
+                    "xp_delta": 4622,
+                    "xp_start": 21562,
+                    "xp_end": 26128
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "slardar_slithereen_crush": 4,
+                        "slardar_amplify_damage": 3,
+                        "slardar_sprint": 3
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "blink": 3
+                    },
+                    "killed": {
+                        "npc_dota_hero_invoker": 1
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 629,
+                    "healing": 0,
+                    "gold_delta": 572,
+                    "xp_delta": 3330,
+                    "xp_start": 11795,
+                    "xp_end": 15069
+                },
+                {
+                    "deaths_pos": {
+                        "124": {
+                            "140": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "drow_ranger_wave_of_silence": 1,
+                        "drow_ranger_multishot": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "hurricane_pike": 1
+                    },
+                    "killed": {
+                        "npc_dota_hero_venomancer": 1
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 4320,
+                    "healing": 0,
+                    "gold_delta": 255,
+                    "xp_delta": 584,
+                    "xp_start": 13384,
+                    "xp_end": 13968
+                },
+                {
+                    "deaths_pos": {
+                        "134": {
+                            "142": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "jakiro_ice_path": 3,
+                        "jakiro_dual_breath": 2,
+                        "jakiro_macropyre": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "guardian_greaves": 1,
+                        "ward_dispenser": 2
+                    },
+                    "killed": {
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 2508,
+                    "healing": 367,
+                    "gold_delta": 404,
+                    "xp_delta": 660,
+                    "xp_start": 12717,
+                    "xp_end": 13377
+                },
+                {
+                    "deaths_pos": {
+                        "114": {
+                            "128": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "dazzle_shadow_wave": 1,
+                        "dazzle_shallow_grave": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "pipe": 1,
+                        "arcane_boots": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 321,
+                    "healing": 252,
+                    "gold_delta": -144,
+                    "xp_delta": 213,
+                    "xp_start": 10780,
+                    "xp_end": 10993
+                }
+            ]
+        },
+        {
+            "start": 2038,
+            "end": 2071,
+            "last_death": 2056,
+            "deaths": 3,
+            "players": [
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "monkey_king_primal_spring": 2,
+                        "monkey_king_tree_dance": 2,
+                        "monkey_king_boundless_strike": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "phase_boots": 2
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 0,
+                    "healing": 0,
+                    "gold_delta": 213,
+                    "xp_delta": 322,
+                    "xp_start": 19747,
+                    "xp_end": 20069
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "invoker_alacrity": 1,
+                        "invoker_cold_snap": 1,
+                        "invoker_quas": 4,
+                        "invoker_wex": 1,
+                        "invoker_exort": 8,
+                        "invoker_invoke": 2,
+                        "invoker_sun_strike": 1,
+                        "invoker_deafening_blast": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "blink": 1,
+                        "phase_boots": 2
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 1395,
+                    "healing": 0,
+                    "gold_delta": 461,
+                    "xp_delta": 1787,
+                    "xp_start": 20391,
+                    "xp_end": 22122
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "treant_natures_grasp": 2,
+                        "treant_leech_seed": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "tpscroll": 1,
+                        "meteor_hammer": 1
+                    },
+                    "killed": {
+                        "npc_dota_hero_drow_ranger": 1
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 372,
+                    "healing": 181,
+                    "gold_delta": 741,
+                    "xp_delta": 1357,
+                    "xp_start": 16734,
+                    "xp_end": 18035
+                },
+                {
+                    "deaths_pos": {
+                        "170": {
+                            "132": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "warlock_shadow_word": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                    },
+                    "killed": {
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 0,
+                    "healing": 180,
+                    "gold_delta": -101,
+                    "xp_delta": 28,
+                    "xp_start": 11985,
+                    "xp_end": 12013
+                },
+                {
+                    "deaths_pos": {
+                        "178": {
+                            "132": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "venomancer_plague_ward": 2,
+                        "venomancer_venomous_gale": 1,
+                        "venomancer_poison_nova": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "glimmer_cape": 1,
+                        "rod_of_atos": 1,
+                        "veil_of_discord": 1,
+                        "magic_wand": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 2251,
+                    "healing": 300,
+                    "gold_delta": -76,
+                    "xp_delta": 28,
+                    "xp_start": 12701,
+                    "xp_end": 12729
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "storm_spirit_ball_lightning": 7,
+                        "storm_spirit_electric_vortex": 1,
+                        "storm_spirit_static_remnant": 2
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "bottle": 13,
+                        "orchid": 1,
+                        "dust": 1
+                    },
+                    "killed": {
+                        "npc_dota_hero_venomancer": 1,
+                        "npc_dota_hero_warlock": 1
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 2706,
+                    "healing": 116,
+                    "gold_delta": 624,
+                    "xp_delta": 1160,
+                    "xp_start": 27353,
+                    "xp_end": 28513
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "slardar_sprint": 2,
+                        "slardar_amplify_damage": 1,
+                        "slardar_slithereen_crush": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "blink": 1,
+                        "spider_legs": 2
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 1335,
+                    "healing": 0,
+                    "gold_delta": 187,
+                    "xp_delta": 1108,
+                    "xp_start": 15380,
+                    "xp_end": 16488
+                },
+                {
+                    "deaths_pos": {
+                        "76": {
+                            "150": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "drow_ranger_wave_of_silence": 1,
+                        "drow_ranger_multishot": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "hurricane_pike": 1,
+                        "shadow_amulet": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 505,
+                    "healing": 0,
+                    "gold_delta": -275,
+                    "xp_delta": 0,
+                    "xp_start": 15164,
+                    "xp_end": 15164
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 0,
+                    "healing": 0,
+                    "gold_delta": 0,
+                    "xp_delta": 0,
+                    "xp_start": 14605,
+                    "xp_end": 14605
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "dazzle_shadow_wave": 3,
+                        "dazzle_poison_touch": 2
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "pipe": 1,
+                        "arcane_boots": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 62,
+                    "healing": 420,
+                    "gold_delta": 307,
+                    "xp_delta": 1410,
+                    "xp_start": 12741,
+                    "xp_end": 14037
+                }
+            ]
+        },
+        {
+            "start": 2443,
+            "end": 2489,
+            "last_death": 2474,
+            "deaths": 4,
+            "players": [
+                {
+                    "deaths_pos": {
+                        "92": {
+                            "142": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "monkey_king_wukongs_command": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "black_king_bar": 1,
+                        "phase_boots": 2
+                    },
+                    "killed": {
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 435,
+                    "healing": 89,
+                    "gold_delta": -224,
+                    "xp_delta": 0,
+                    "xp_start": 21770,
+                    "xp_end": 21770
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "invoker_invoke": 10,
+                        "invoker_chaos_meteor": 1,
+                        "invoker_exort": 12,
+                        "invoker_wex": 13,
+                        "invoker_quas": 15,
+                        "invoker_tornado": 2,
+                        "invoker_ice_wall": 1,
+                        "invoker_emp": 1,
+                        "invoker_cold_snap": 2,
+                        "invoker_alacrity": 1,
+                        "invoker_deafening_blast": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "phase_boots": 3,
+                        "spirit_vessel": 2,
+                        "blink": 1,
+                        "tpscroll": 1
+                    },
+                    "killed": {
+                        "npc_dota_hero_slardar": 1
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 1852,
+                    "healing": 0,
+                    "gold_delta": 767,
+                    "xp_delta": 3300,
+                    "xp_start": 22777,
+                    "xp_end": 26069
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "treant_natures_grasp": 2,
+                        "treant_leech_seed": 2,
+                        "treant_overgrowth": 1,
+                        "treant_living_armor": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "blink": 1,
+                        "necronomicon": 1,
+                        "meteor_hammer": 1,
+                        "rod_of_atos": 1,
+                        "tpscroll": 1
+                    },
+                    "killed": {
+                        "npc_dota_hero_jakiro": 1
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 2164,
+                    "healing": 656,
+                    "gold_delta": 499,
+                    "xp_delta": 3250,
+                    "xp_start": 19543,
+                    "xp_end": 22785
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "warlock_fatal_bonds": 1,
+                        "warlock_rain_of_chaos": 1,
+                        "warlock_upheaval": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "glimmer_cape": 1,
+                        "arcane_boots": 1,
+                        "tpscroll": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 929,
+                    "healing": 0,
+                    "gold_delta": 181,
+                    "xp_delta": 1064,
+                    "xp_start": 13528,
+                    "xp_end": 14584
+                },
+                {
+                    "deaths_pos": {
+                        "90": {
+                            "140": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "venomancer_venomous_gale": 1,
+                        "venomancer_plague_ward": 1,
+                        "venomancer_poison_nova": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "glimmer_cape": 2,
+                        "rod_of_atos": 1,
+                        "veil_of_discord": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 2375,
+                    "healing": 0,
+                    "gold_delta": -96,
+                    "xp_delta": 0,
+                    "xp_start": 14278,
+                    "xp_end": 14278
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "storm_spirit_ball_lightning": 5,
+                        "storm_spirit_static_remnant": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "cyclone": 1,
+                        "tpscroll": 1,
+                        "bottle": 4
+                    },
+                    "killed": {
+                        "npc_dota_hero_venomancer": 1
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 1939,
+                    "healing": 0,
+                    "gold_delta": 1131,
+                    "xp_delta": 474,
+                    "xp_start": 40192,
+                    "xp_end": 40666
+                },
+                {
+                    "deaths_pos": {
+                        "92": {
+                            "142": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "slardar_slithereen_crush": 1,
+                        "slardar_amplify_damage": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "spider_legs": 1,
+                        "blink": 1
+                    },
+                    "killed": {
+                        "npc_dota_hero_monkey_king": 1
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 667,
+                    "healing": 0,
+                    "gold_delta": 141,
+                    "xp_delta": 1944,
+                    "xp_start": 22538,
+                    "xp_end": 24482
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "drow_ranger_multishot": 1,
+                        "drow_ranger_wave_of_silence": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "magic_wand": 2,
+                        "hurricane_pike": 1,
+                        "black_king_bar": 1,
+                        "invis_sword": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 1029,
+                    "healing": 30,
+                    "gold_delta": 227,
+                    "xp_delta": 566,
+                    "xp_start": 21475,
+                    "xp_end": 22041
+                },
+                {
+                    "deaths_pos": {
+                        "96": {
+                            "144": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "jakiro_ice_path": 2,
+                        "jakiro_macropyre": 1,
+                        "jakiro_dual_breath": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "clarity": 1,
+                        "guardian_greaves": 1,
+                        "force_staff": 1,
+                        "rod_of_atos": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 2006,
+                    "healing": 0,
+                    "gold_delta": 35,
+                    "xp_delta": 2001,
+                    "xp_start": 21145,
+                    "xp_end": 23146
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "dazzle_shadow_wave": 4
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "tome_of_knowledge": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 0,
+                    "healing": 560,
+                    "gold_delta": 90,
+                    "xp_delta": 1105,
+                    "xp_start": 19641,
+                    "xp_end": 20746
+                }
+            ]
+        },
+        {
+            "start": 2613,
+            "end": 2669,
+            "last_death": 2654,
+            "deaths": 6,
+            "players": [
+                {
+                    "deaths_pos": {
+                        "118": {
+                            "122": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "monkey_king_tree_dance": 1,
+                        "monkey_king_boundless_strike": 1,
+                        "monkey_king_wukongs_command": 1,
+                        "monkey_king_mischief": 1,
+                        "monkey_king_untransform": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "phase_boots": 3,
+                        "black_king_bar": 1,
+                        "dust": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 3592,
+                    "healing": 238,
+                    "gold_delta": -254,
+                    "xp_delta": 884,
+                    "xp_start": 22073,
+                    "xp_end": 22957
+                },
+                {
+                    "deaths_pos": {
+                        "114": {
+                            "126": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "invoker_quas": 8,
+                        "invoker_wex": 23,
+                        "invoker_invoke": 11,
+                        "invoker_ghost_walk": 1,
+                        "invoker_alacrity": 3,
+                        "invoker_tornado": 1,
+                        "invoker_exort": 15,
+                        "invoker_chaos_meteor": 1,
+                        "invoker_deafening_blast": 1,
+                        "invoker_emp": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "phase_boots": 4,
+                        "spirit_vessel": 1
+                    },
+                    "killed": {
+                        "npc_dota_hero_slardar": 1
+                    },
+                    "deaths": 1,
+                    "buybacks": 1,
+                    "damage": 1454,
+                    "healing": 0,
+                    "gold_delta": -342,
+                    "xp_delta": 1214,
+                    "xp_start": 27705,
+                    "xp_end": 28919
+                },
+                {
+                    "deaths_pos": {
+                        "102": {
+                            "126": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "treant_overgrowth": 1,
+                        "treant_natures_grasp": 2,
+                        "treant_living_armor": 1,
+                        "treant_leech_seed": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "smoke_of_deceit": 1,
+                        "blink": 2,
+                        "necronomicon": 1,
+                        "meteor_hammer": 2,
+                        "rod_of_atos": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 2728,
+                    "healing": 908,
+                    "gold_delta": -249,
+                    "xp_delta": 948,
+                    "xp_start": 25345,
+                    "xp_end": 26281
+                },
+                {
+                    "deaths_pos": {
+                        "114": {
+                            "124": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "warlock_fatal_bonds": 1,
+                        "warlock_upheaval": 1,
+                        "warlock_rain_of_chaos": 1,
+                        "warlock_shadow_word": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "glimmer_cape": 2,
+                        "magic_wand": 1,
+                        "arcane_boots": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 1902,
+                    "healing": 390,
+                    "gold_delta": 27,
+                    "xp_delta": 924,
+                    "xp_start": 16231,
+                    "xp_end": 17155
+                },
+                {
+                    "deaths_pos": {
+                        "114": {
+                            "122": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "venomancer_plague_ward": 2
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "glimmer_cape": 1,
+                        "veil_of_discord": 1,
+                        "rod_of_atos": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 202,
+                    "healing": 0,
+                    "gold_delta": -17,
+                    "xp_delta": 52,
+                    "xp_start": 16165,
+                    "xp_end": 16205
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "storm_spirit_ball_lightning": 7,
+                        "storm_spirit_electric_vortex": 2,
+                        "storm_spirit_static_remnant": 3
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "bloodthorn": 2,
+                        "cyclone": 1,
+                        "bottle": 5,
+                        "cheese": 1
+                    },
+                    "killed": {
+                        "npc_dota_hero_warlock": 1,
+                        "npc_dota_hero_treant": 1
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 3952,
+                    "healing": 250,
+                    "gold_delta": 1653,
+                    "xp_delta": 5861,
+                    "xp_start": 42923,
+                    "xp_end": 48784
+                },
+                {
+                    "deaths_pos": {
+                        "118": {
+                            "120": 1
+                        }
+                    },
+                    "ability_uses": {
+                        "slardar_amplify_damage": 2,
+                        "slardar_sprint": 1,
+                        "slardar_slithereen_crush": 2
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "spider_legs": 1,
+                        "blink": 1
+                    },
+                    "killed": {
+                        "npc_dota_hero_venomancer": 1
+                    },
+                    "deaths": 1,
+                    "buybacks": 0,
+                    "damage": 1039,
+                    "healing": 0,
+                    "gold_delta": 328,
+                    "xp_delta": 1263,
+                    "xp_start": 24789,
+                    "xp_end": 26052
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "drow_ranger_multishot": 2
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "invis_sword": 1,
+                        "black_king_bar": 1,
+                        "hurricane_pike": 2
+                    },
+                    "killed": {
+                        "npc_dota_hero_monkey_king": 1
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 3306,
+                    "healing": 0,
+                    "gold_delta": 1562,
+                    "xp_delta": 4326,
+                    "xp_start": 23156,
+                    "xp_end": 27482
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "jakiro_dual_breath": 3,
+                        "jakiro_ice_path": 2,
+                        "jakiro_macropyre": 1
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "ward_dispenser": 1,
+                        "ward_observer": 1,
+                        "guardian_greaves": 1,
+                        "rod_of_atos": 2,
+                        "force_staff": 1
+                    },
+                    "killed": {
+                        "npc_dota_hero_invoker": 1
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 5361,
+                    "healing": 639,
+                    "gold_delta": 1726,
+                    "xp_delta": 6432,
+                    "xp_start": 23146,
+                    "xp_end": 29578
+                },
+                {
+                    "deaths_pos": {
+                    },
+                    "ability_uses": {
+                        "dazzle_shadow_wave": 3
+                    },
+                    "ability_targets": {
+                    },
+                    "item_uses": {
+                        "tpscroll": 1,
+                        "arcane_boots": 1
+                    },
+                    "killed": {
+                    },
+                    "deaths": 0,
+                    "buybacks": 0,
+                    "damage": 0,
+                    "healing": 759,
+                    "gold_delta": 135,
+                    "xp_delta": 143,
+                    "xp_start": 21093,
+                    "xp_end": 21236
+                }
+            ]
+        }
+    ]
+}

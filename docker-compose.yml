@@ -10,6 +10,7 @@ services:
         condition: service_healthy
     environment:
       OPENAI_API_KEY: ${OPENAI_API_KEY}
+      DEEPSEEK_API_KEY: ${DEEPSEEK_API_KEY}
       DISCORD_BOT_TOKEN: ${DISCORD_BOT_TOKEN}
       DISCORD_CLIENT_ID: ${DISCORD_CLIENT_ID}
       ALLOWED_SERVER_IDS: ${ALLOWED_SERVER_IDS}

@@ -1,35 +1,15 @@
 from app.configs.db_config import get_mysql_connection
 from datetime import datetime
 
+schema = [
+    "player_id",
+    "personal_name",
+    "discord_id",
+    "auto_analyze_end_datetime",
+    "discord_name"
+]
 
 
-def fetch_player_with_most_recent_matches():
-    """Fetch all players with their matches."""
-    connection = get_mysql_connection()
-    if connection:
-        cursor = connection.cursor(dictionary=True)
-        cursor.execute("""
-            SELECT 
-                p.player_id,
-                p.personal_name,
-                p.discord_id,
-                pm.match_id,
-                pm.start_time AS match_start_time
-            FROM (
-                SELECT 
-                    player_id, 
-                    match_id, 
-                    start_time,
-                    ROW_NUMBER() OVER (PARTITION BY player_id ORDER BY start_time DESC) AS rank
-                FROM player_match
-            ) pm
-            JOIN players p ON pm.player_id = p.player_id
-            WHERE pm.rank = 1;
-        """)
-        players = cursor.fetchall()
-        cursor.close()
-        return players
-    return []
 
 def fetch_all_players_id():
     """获取所有玩家的 player_id"""
@@ -70,7 +50,7 @@ def fetch_players_id_auto_analyze_enable():
             connection.close()
     return []
 
-def put_player(player_id, personal_name, discord_id, auto_analyze_end_datetime=datetime.now().strftime('%Y-%m-%d %H:%M:%S')):
+def put_player(player_id, personal_name, discord_id, auto_analyze_end_datetime=datetime.now().strftime('%Y-%m-%d %H:%M:%S'), discord_name=None):
     """添加玩家信息"""
     connection = get_mysql_connection()
     if connection:
@@ -78,14 +58,15 @@ def put_player(player_id, personal_name, discord_id, auto_analyze_end_datetime=d
         try:
             # use upsert to avoid duplicate entries
             cursor.execute("""
-                INSERT INTO players (player_id, personal_name, discord_id, auto_analyze_end_datetime) 
-                VALUES (%s, %s, %s, %s)
+                INSERT INTO players (player_id, personal_name, discord_id, auto_analyze_end_datetime, discord_name) 
+                VALUES (%s, %s, %s, %s, %s)
                 ON DUPLICATE KEY UPDATE 
                     personal_name = %s, 
                     discord_id = %s, 
-                    auto_analyze_end_datetime = %s
+                    auto_analyze_end_datetime = %s,
+                    discord_name = %s
                 """,
-                (player_id, personal_name, discord_id, auto_analyze_end_datetime, personal_name, discord_id, auto_analyze_end_datetime)
+                (player_id, personal_name, discord_id, auto_analyze_end_datetime, discord_name, personal_name, discord_id, auto_analyze_end_datetime, discord_name)
             )
             connection.commit()
             return True
@@ -104,8 +85,8 @@ def get_player(player_id):
     if connection:
         cursor = connection.cursor(dictionary=True)  # 创建游标
         try:
-            cursor.execute("""
-            SELECT player_id, personal_name, discord_id, auto_analyze_end_datetime
+            cursor.execute(f"""
+            SELECT *
             FROM players
             WHERE player_id = %s
             """, (player_id,))
@@ -125,11 +106,32 @@ def fetch_player_by_discord_id(discord_id):
     if connection:
         cursor = connection.cursor(dictionary=True)
         try:
-            cursor.execute("""
-            SELECT player_id, personal_name, discord_id, auto_analyze_end_datetime
+            cursor.execute(f"""
+            SELECT *
             FROM players
             WHERE discord_id = %s
             """, (discord_id,))
+            player = cursor.fetchall()
+            cursor.close()
+            return player[0] if player else None
+        except Exception as e:
+            print(f"查询玩家信息时发生错误: {e}")
+            return []
+        finally:
+            connection.close()
+    return None
+
+def fetch_player_by_discord_name(discord_name):
+    """根据 discord_name 获取玩家信息"""
+    connection = get_mysql_connection()
+    if connection:
+        cursor = connection.cursor(dictionary=True)
+        try:
+            cursor.execute(f"""
+            SELECT *
+            FROM players
+            WHERE discord_name = %s
+            """, (discord_name,))
             player = cursor.fetchall()
             cursor.close()
             return player[0] if player else None

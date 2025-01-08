@@ -1,17 +1,11 @@
 import json
 
 from app.services.open_dota_api_service import fetch_match_details
-from . import dota_constants_service as dota_constants, llm_analysis_service as llm_analysis
-from dotenv import load_dotenv
+from app.services import dota_constants_service as dota_constants, llm_analysis_service as llm_analysis
 from app.discord_util import discordWebhook as discordWebhook
 from app.repository import player_repository
 from app.services.open_dota_api_service import fetch_recent_matches
 from app.repository.match_repository import MatchRepository
-# 加载 .env 文件
-load_dotenv()
-# Environment variables
-import os
-DISCORD_BOT_TOKEN = os.getenv("DISCORD_BOT_TOKEN")
 
 # MongoDB and collections
 match_repository = MatchRepository()
@@ -75,12 +69,8 @@ def analyze_match(match_id, use_cache_analysis=True, send_cache_analysis=False):
     match_detail = dota_constants.fill_match_details(match_detail)
 
     analysis = llm_analysis.analyze(match_detail)
-
     if not matche_db:
         match_repository.save_match({"match_details": match_detail_original, "match_id": match_id, "analysis": analysis})
-    content =  [f'### Match ID: {match_id}'] + [message for message in analysis.values()]
-    discordWebhook.send(content)
-    return {'match_detail': match_detail, 'analyzsis': analysis}
-
-
-
+        content = [f'### Match ID: {match_id}'] + [message for message in analysis.values()]
+        discordWebhook.send(content)
+    return {'match_detail': match_detail, 'analysis': analysis}
