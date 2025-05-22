@@ -11,8 +11,8 @@ team_by_id = {0: "Radiant", 1: "Dire"}
 dotaconstants_host = env_constant.DOTA_CONSTANTS_HOST
 
 
-data_fetch_url = "http://" + dotaconstants_host + "/api/data?type={}"
-
+# data_fetch_url = "http://" + dotaconstants_host + "/api/data?type={}"
+data_fetch_url = "https://api.opendota.com/api/constants/{}"
 def convert_rank_tier(rank_tier):
     if not isinstance(rank_tier, int):
         return "Unknown"
@@ -136,8 +136,7 @@ def fill_match_details(match_details):
         player['rank_tier'] = convert_rank_tier(rank_tier)
 
     for picks_bans in match_details['picks_bans']:
-        picks_bans['hero'] = heroes[picks_bans['hero_id']]['localized_name']
-        if 'hero_id' in picks_bans:
+        if 'hero_id' in picks_bans and picks_bans['hero_id'] in heroes:
             picks_bans['hero'] = heroes[picks_bans['hero_id']]['localized_name']
     if '_id' in match_details:
         del match_details['_id']

@@ -5,15 +5,12 @@ import functools
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 from datetime import datetime
-import os
-from dotenv import load_dotenv
 from app.agent import gg_chatalyze_agent
+from app.constant.env_constant import DISCORD_BOT_TOKEN
 from app.repository import player_repository
 import discord
 
-# 加载环境变量
-load_dotenv()
-discord_bot_token = os.getenv("DISCORD_BOT_TOKEN")
+discord_bot_token = DISCORD_BOT_TOKEN
 
 intents = discord.Intents.default()
 intents.message_content = True
