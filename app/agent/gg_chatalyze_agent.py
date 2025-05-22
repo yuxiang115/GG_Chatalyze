@@ -14,7 +14,7 @@ from app.controller import player_controller
 # 加载环境变量
 discord_bot_token = env_constant.DISCORD_BOT_TOKEN
 
-llm = ChatOpenAI(model="deepseek-chat", temperature=0.7, openai_api_key=env_constant.DEEPSEEK_API_KEY, base_url=env_constant.LLM_HOST)
+llm = ChatOpenAI(model="deepseek-chat", temperature=0.7, openai_api_key=env_constant.LLM_API_KEY, base_url=env_constant.LLM_HOST)
 
 def load_args(input_str):
     try:
