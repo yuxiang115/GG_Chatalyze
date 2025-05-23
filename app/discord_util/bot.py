@@ -1,6 +1,8 @@
 import asyncio
+import traceback
 from concurrent.futures import ThreadPoolExecutor
 import functools
+from langchain.prompts import ChatPromptTemplate
 
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
@@ -131,9 +133,6 @@ async def on_message(message):
                     {context}
     
                     {user_info_prompt}
-    
-                    User query:
-                    {user_query}
                     
                     Only response with your content, dont include bot#GG_Chatalyze, 
                     Response in Language: {intent_result['language']} for example "zh" for Chinese, "en" for English
@@ -141,7 +140,18 @@ async def on_message(message):
                     
                     Respond:
                     """
-                    response = llm(chat_prompt).content
+
+
+
+                    messages = [
+                        (
+                            "system",
+                            chat_prompt,
+                        ),
+                        ("human", user_query),
+                    ]
+
+                    response = llm.invoke(messages).content
 
                 # 回复用户
                 update_context(channel_id, client.user.id, client.user.name, response, is_bot=True)
@@ -149,6 +159,8 @@ async def on_message(message):
                 await message.channel.send(response)
 
             except Exception as e:
+                tb = traceback.format_exc()
+                print(f"[ERROR] {tb}")
                 await message.channel.send(f"出错了: {e.with_traceback()}")
 
 async def run_in_executor(func, *args, **kwargs):
