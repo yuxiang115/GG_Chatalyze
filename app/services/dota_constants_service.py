@@ -124,6 +124,8 @@ def fill_match_details(match_details):
 
         player_ability_upgrades = []
         for ability_id in player['ability_upgrades_arr']:
+            if ability_id not in abilities:
+                continue
             if 'dname' in abilities[ability_id]:
                 player_ability_upgrades.append(abilities[ability_id]['dname'])
                 if 'desc' in abilities[ability_id]:
