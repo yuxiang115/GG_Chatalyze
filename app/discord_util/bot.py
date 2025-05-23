@@ -2,7 +2,6 @@ import asyncio
 import traceback
 from concurrent.futures import ThreadPoolExecutor
 import functools
-from langchain.prompts import ChatPromptTemplate
 
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
