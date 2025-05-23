@@ -70,6 +70,8 @@ def load_abilities():
 
     abilities_details_by_id = {}
     for id, ability in abilities.items():
+        if id is not int:
+            continue
         if ability in abilities_details:
             abilities_details_by_id[int(id)] = abilities_details[ability]
         else:
