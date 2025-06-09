@@ -9,7 +9,7 @@ from app.constant import env_constant
 load_dotenv()
 
 # 初始化 OpenAI 模型
-llm = OpenAI(model="deepseek-chat", temperature=0.7, openai_api_key=env_constant.LLM_API_KEY, base_url=env_constant.LLM_HOST)
+llm = OpenAI(model=env_constant.LLM_MODEL, temperature=0.7, openai_api_key=env_constant.LLM_API_KEY, base_url=env_constant.LLM_HOST)
 
 # 定义亮眼玩家分析的 Prompt
 highlight_prompt = PromptTemplate(

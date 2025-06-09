@@ -5,6 +5,8 @@ load_dotenv()
 
 LLM_HOST=os.getenv("LLM_HOST")
 LLM_API_KEY=os.getenv("LLM_API_KEY")
+LLM_MODEL=os.getenv("LLM_MODEL")
+
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 DISCORD_BOT_TOKEN = os.getenv("DISCORD_BOT_TOKEN")
