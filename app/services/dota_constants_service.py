@@ -34,7 +34,7 @@ def convert_rank_tier(rank_tier):
 
     # Handle Immortal (no stars)
     if rank_group == 8:
-        return "Immortal"
+        return "Immortal/冠绝一世"
 
     # Map to rank and stars
     rank = rank_mapping.get(rank_group, "Unknown")
