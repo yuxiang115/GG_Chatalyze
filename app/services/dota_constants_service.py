@@ -138,12 +138,12 @@ def fill_match_details(match_details):
 
         rank_tier = player['rank_tier'] if 'rank_tier' in player else None
         player['rank_tier'] = convert_rank_tier(rank_tier)
-
-    for picks_bans in match_details['picks_bans']:
-        if 'hero_id' in picks_bans and picks_bans['hero_id'] in heroes:
-            picks_bans['hero'] = heroes[picks_bans['hero_id']]['localized_name']
-    if '_id' in match_details:
-        del match_details['_id']
+    if 'pick_bans' in match_details:
+        for picks_bans in match_details['picks_bans']:
+            if 'hero_id' in picks_bans and picks_bans['hero_id'] in heroes:
+                picks_bans['hero'] = heroes[picks_bans['hero_id']]['localized_name']
+        if '_id' in match_details:
+            del match_details['_id']
 
     return simplify_match_detail(match_details)
 
